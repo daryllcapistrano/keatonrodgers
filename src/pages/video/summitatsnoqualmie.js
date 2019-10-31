@@ -2,21 +2,21 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 // import Col from 'react-bootstrap/Col';
-import SEO from '../components/seo';
-import Layout from '../components/layout';
+import SEO from '../../components/seo';
+import Layout from '../../components/layout';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const JackGraydon = () => (
+const Summit = () => (
 	<Layout>
-		<SEO title="Jack Graydon" />
+		<SEO title="Sprung" />
 		<Container>
 			<Row>
 				<iframe
-					title="Jack Graydon"
+					title="Sprung"
 					width="560"
 					height="315"
-					src="https://www.youtube.com/embed/ty0-Hu10jFk"
+					src="https://www.youtube.com/embed/qrr7StlV-b8"
 					frameborder="0"
 					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen="true"
@@ -28,4 +28,4 @@ const JackGraydon = () => (
 	</Layout>
 );
 
-export default JackGraydon;
+export default Summit;

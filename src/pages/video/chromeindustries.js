@@ -2,21 +2,21 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 // import Col from 'react-bootstrap/Col';
-import SEO from '../components/seo';
-import Layout from '../components/layout';
+import SEO from '../../components/seo';
+import Layout from '../../components/layout';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const CCS = () => (
+const ChromeIndustries = () => (
 	<Layout>
-		<SEO title="CCS" />
+		<SEO title="Chrome Industries" />
 		<Container>
 			<Row>
 				<iframe
-					title="CCS"
+					title="Chrome Industries"
 					width="560"
 					height="315"
-					src="https://www.youtube.com/embed/Chizcoy1s2k"
+					src="https://www.youtube.com/embed/XmNUroFU0lc"
 					frameborder="0"
 					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen="true"
@@ -28,4 +28,4 @@ const CCS = () => (
 	</Layout>
 );
 
-export default CCS;
+export default ChromeIndustries;

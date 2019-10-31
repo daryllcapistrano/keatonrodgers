@@ -27,52 +27,52 @@ const IndexPage = () => (
 		<Container>
 			<Row>
 				<Col sm={12} md={6} lg={4}>
-					<Link to="/prana_manifest_farm/">
+					<Link to="/video/prana_manifest_farm/">
 						<img src={Prana} alt="Prana Manifest Farm" />
 					</Link>
 				</Col>
 				<Col sm={12} md={6} lg={4}>
-					<Link to="/bittersland/">
+					<Link to="/video/bittersland/">
 						<img src={Bitters} alt="Bittersland" />
 					</Link>
 				</Col>
 				<Col sm={12} md={6} lg={4}>
-					<Link to="/cruisingintherain/">
+					<Link to="/video/cruisingintherain/">
 						<img src={OJ} alt="Cruising in the Rain" />
 					</Link>
 				</Col>
 				<Col sm={12} md={6} lg={4}>
-					<Link to="/chromeindustries/">
+					<Link to="/video/chromeindustries/">
 						<img src={Chrome} alt="Chrome Industries" />
 					</Link>
 				</Col>
 				<Col sm={12} md={6} lg={4}>
-					<Link to="/greendream/">
+					<Link to="/video/greendream/">
 						<img src={GreenDream} alt="Green Dream" />
 					</Link>
 				</Col>
 				<Col sm={12} md={6} lg={4}>
-					<Link to="/jackgraydon/">
+					<Link to="/video/jackgraydon/">
 						<img src={JackGraydon} alt="Jack Graydon" />
 					</Link>
 				</Col>
 				<Col sm={12} md={6} lg={4}>
-					<Link to="/ccs/">
+					<Link to="/video/ccs/">
 						<img src={CheapSkates} alt="CCS" />
 					</Link>
 				</Col>
 				<Col sm={12} md={6} lg={4}>
-					<Link to="/alpental/">
+					<Link to="/video/alpental/">
 						<img src={Alpental} alt="Alpental" />
 					</Link>
 				</Col>
 				<Col sm={12} md={6} lg={4}>
-					<Link to="/thrasher/">
+					<Link to="/video/thrasher/">
 						<img src={Thrasher} alt="Thrasher" />
 					</Link>
 				</Col>
 				<Col sm={12} md={6} lg={4}>
-					<Link to="/summitatsnoqualmie/">
+					<Link to="/video/summitatsnoqualmie/">
 						<img src={Summit} alt="Summit at Snoqualmie" />
 					</Link>
 				</Col>

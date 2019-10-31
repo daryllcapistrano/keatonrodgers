@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link } from 'gatsby';
+import { Link } from 'gatsby';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -22,26 +22,26 @@ const PhotoPage = () => (
 		<Container>
 			<Row>
 				<Col sm={12} md={6} lg={6}>
-					<a class="" href="https://www.youtube.com/watch?v=fXV8AEs1IdQ">
+					<Link to="/photography/action/">
 						<img src={Action} alt="Action" />
-					</a>
+					</Link>
 				</Col>
 				<Col sm={12} md={6} lg={6}>
-					<a class="" href="https://www.youtube.com/watch?v=J-zFcJ0rMTM">
+					<Link to="/photography/architecture/">
 						<img src={Architecture} alt="Architecture" />
-					</a>
+					</Link>
 				</Col>
 			</Row>
 			<Row>
 				<Col sm={12} md={6} lg={6}>
-					<a class="" href="https://www.youtube.com/watch?v=fQgDbC9H9ag">
+					<Link to="/photography/poler/">
 						<img src={Poler} alt="Poler" />
-					</a>
+					</Link>
 				</Col>
 				<Col sm={12} md={6} lg={6}>
-					<a class="" href="https://www.youtube.com/watch?v=fXV8AEs1IdQ">
+					<Link to="/photography/portrait/">
 						<img src={Portrait} alt="Portrait" />
-					</a>
+					</Link>
 				</Col>
 			</Row>
 		</Container>

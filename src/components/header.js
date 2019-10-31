@@ -4,10 +4,13 @@ import PropTypes from 'prop-types';
 
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import headerStyles from '../components/header.module.css';
 
 const Header = ({ siteTitle }) => (
 	<Navbar bg="light" expand="lg">
-		<Navbar.Brand href="/">Keaton Rodgers</Navbar.Brand>
+		<Navbar.Brand href="/" className={headerStyles.someClass}>
+			Keaton Rodgers
+		</Navbar.Brand>
 		<Navbar.Toggle aria-controls="basic-navbar-nav" />
 		<Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
 			<Nav>

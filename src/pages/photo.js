@@ -1,15 +1,50 @@
 import React from 'react';
-import { Link } from 'gatsby';
+// import { Link } from 'gatsby';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 import Layout from '../components/layout';
+
+// import Image from '../components/image';
+import Action from '../images/photo_thumbnails/action thumbnail.jpg';
+import Architecture from '../images/photo_thumbnails/architecturethumbnail.jpg';
+import Poler from '../images/photo_thumbnails/poler thumbnail.jpg';
+import Portrait from '../images/photo_thumbnails/portraitthumbnail.jpg';
+
 import SEO from '../components/seo';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const PhotoPage = () => (
 	<Layout>
-		<SEO title="Photo Page" />
-		<h1>Hi from the Photo page</h1>
-		<p>Welcome to the Photo page</p>
-		<Link to="/">Go back to the homepage</Link>
+		<SEO title="Photos" />
+		<Container>
+			<Row>
+				<Col sm={12} md={6} lg={6}>
+					<a class="" href="https://www.youtube.com/watch?v=fXV8AEs1IdQ">
+						<img src={Action} alt="Action" />
+					</a>
+				</Col>
+				<Col sm={12} md={6} lg={6}>
+					<a class="" href="https://www.youtube.com/watch?v=J-zFcJ0rMTM">
+						<img src={Architecture} alt="Architecture" />
+					</a>
+				</Col>
+			</Row>
+			<Row>
+				<Col sm={12} md={6} lg={6}>
+					<a class="" href="https://www.youtube.com/watch?v=fQgDbC9H9ag">
+						<img src={Poler} alt="Poler" />
+					</a>
+				</Col>
+				<Col sm={12} md={6} lg={6}>
+					<a class="" href="https://www.youtube.com/watch?v=fXV8AEs1IdQ">
+						<img src={Portrait} alt="Portrait" />
+					</a>
+				</Col>
+			</Row>
+		</Container>
 	</Layout>
 );
 

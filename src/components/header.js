@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import headerStyles from '../components/header.module.css';
+import headerStyles from '../css/header.module.css';
 
 const Header = ({ siteTitle }) => (
 	<Navbar bg="light" expand="lg">

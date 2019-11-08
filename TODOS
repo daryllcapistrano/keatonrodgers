@@ -1,12 +1,10 @@
 *style using modules
 
 Video Page:
-    - create new page for each video
+    - complete overlay styling
     - create modal in version 2
-    - add title overlay
 
 Photo Page:
-    - create new page for each photo section
     - create gallery view for photos
 
 Contact Page:

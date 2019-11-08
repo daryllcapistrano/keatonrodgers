@@ -3,9 +3,10 @@ import { Link } from 'gatsby';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card';
 
 import Layout from '../components/layout';
-
+// learn more efficient way to import photos
 import Prana from '../images/video_thumbnails/prana_manifest_farm.png';
 import Bitters from '../images/video_thumbnails/Screen Shot 2019-06-26 at 6.56.27 PM.png';
 import OJ from '../images/video_thumbnails/rainthumb.png';
@@ -26,9 +27,36 @@ const IndexPage = () => (
 		<SEO title="Video Work" />
 		<Container>
 			<Row>
-				<Col sm={12} md={6} lg={4}>
+				<Col
+					sm={12}
+					md={6}
+					lg={4}
+					style={{
+						padding: '5px'
+					}}
+				>
 					<Link to="/video/prana_manifest_farm/">
 						<img src={Prana} alt="Prana Manifest Farm" />
+						<Card.ImgOverlay className="text-center">
+							<Card.Title
+								style={{
+									color: 'white',
+									fontSize: '40px',
+									width: '100%',
+									position: 'absolute',
+									top: '50%',
+									left: '50%',
+									transform: 'translate(-50%, -50%)'
+								}}
+							>
+								Manifest Farm
+							</Card.Title>
+							{/* <Card.Text>
+								This is a wider card with supporting text below as a natural lead-in to additional content. This content
+								is a little bit longer.
+							</Card.Text>
+							<Card.Text>Last updated 3 mins ago</Card.Text> */}
+						</Card.ImgOverlay>
 					</Link>
 				</Col>
 				<Col sm={12} md={6} lg={4}>

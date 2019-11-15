@@ -32,7 +32,6 @@ const IndexPage = () => (
 					md={6}
 					lg={4}
 					style={{
-						//! add this padding to whole page
 						padding: '5px'
 					}}
 				>
@@ -55,47 +54,110 @@ const IndexPage = () => (
 						</Card.ImgOverlay>
 					</Link>
 				</Col>
-				<Col sm={12} md={6} lg={4}>
+				<Col
+					sm={12}
+					md={6}
+					lg={4}
+					style={{
+						padding: '5px'
+					}}
+				>
 					<Link to="/video/bittersland/">
 						<img src={Bitters} alt="Bittersland" />
 					</Link>
 				</Col>
-				<Col sm={12} md={6} lg={4}>
+				<Col
+					sm={12}
+					md={6}
+					lg={4}
+					style={{
+						padding: '5px'
+					}}
+				>
 					<Link to="/video/cruisingintherain/">
 						<img src={OJ} alt="Cruising in the Rain" />
 					</Link>
 				</Col>
-				<Col sm={12} md={6} lg={4}>
+				<Col
+					sm={12}
+					md={6}
+					lg={4}
+					style={{
+						padding: '5px'
+					}}
+				>
 					<Link to="/video/chromeindustries/">
 						<img src={Chrome} alt="Chrome Industries" />
 					</Link>
 				</Col>
-				<Col sm={12} md={6} lg={4}>
+				<Col
+					sm={12}
+					md={6}
+					lg={4}
+					style={{
+						padding: '5px'
+					}}
+				>
 					<Link to="/video/greendream/">
 						<img src={GreenDream} alt="Green Dream" />
 					</Link>
 				</Col>
-				<Col sm={12} md={6} lg={4}>
+				<Col
+					sm={12}
+					md={6}
+					lg={4}
+					style={{
+						padding: '5px'
+					}}
+				>
 					<Link to="/video/jackgraydon/">
 						<img src={JackGraydon} alt="Jack Graydon" />
 					</Link>
 				</Col>
-				<Col sm={12} md={6} lg={4}>
+				<Col
+					sm={12}
+					md={6}
+					lg={4}
+					style={{
+						padding: '5px'
+					}}
+				>
 					<Link to="/video/ccs/">
 						<img src={CheapSkates} alt="CCS" />
 					</Link>
 				</Col>
-				<Col sm={12} md={6} lg={4}>
+				<Col
+					sm={12}
+					md={6}
+					lg={4}
+					style={{
+						padding: '5px'
+					}}
+				>
 					<Link to="/video/alpental/">
 						<img src={Alpental} alt="Alpental" />
 					</Link>
 				</Col>
-				<Col sm={12} md={6} lg={4}>
+				<Col
+					sm={12}
+					md={6}
+					lg={4}
+					style={{
+						padding: '5px'
+					}}
+				>
 					<Link to="/video/thrasher/">
 						<img src={Thrasher} alt="Thrasher" />
 					</Link>
 				</Col>
-				<Col sm={12} md={6} lg={4}>
+				<Col
+					sm={12}
+					md={6}
+					lg={4}
+					style={{
+						padding: '5px'
+					}}
+				>
 					<Link to="/video/summitatsnoqualmie/">
 						<img src={Summit} alt="Summit at Snoqualmie" />
 					</Link>

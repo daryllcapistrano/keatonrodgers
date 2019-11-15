@@ -17,10 +17,24 @@ const ContactPage = () => (
 		<SEO title="Contact" />
 		<Container>
 			<Row>
-				<Col sm={12} md={6} lg={6}>
+				<Col
+					sm={12}
+					md={6}
+					lg={6}
+					style={{
+						padding: '5px'
+					}}
+				>
 					<img src={ContactPhoto} alt="Keaton Rodgers" />
 				</Col>
-				<Col sm={12} md={6} lg={6}>
+				<Col
+					sm={12}
+					md={6}
+					lg={6}
+					style={{
+						padding: '5px'
+					}}
+				>
 					<h1 className="text-center">contact info</h1>
 				</Col>
 			</Row>

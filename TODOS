@@ -2,7 +2,7 @@ Video Page:
     - create modal
 
 Photo Page:
-    - create gallery view for photos
+    - maintain aspect ratio for photos
 
 Contact Page:
     - add info

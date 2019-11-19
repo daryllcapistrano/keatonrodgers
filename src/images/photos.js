@@ -41,8 +41,8 @@ export const photos = [
 	},
 	{
 		src: '../../static/poler13-8bdd7c928fff7321b7a5c72460d56aed.jpg',
-		width: 4,
-		height: 3
+		width: 3,
+		height: 4
 	},
 	{
 		src: '../../static/poler12-cf5d282831351a4001b0be39be0c233c.jpg',

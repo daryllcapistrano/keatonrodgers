@@ -6,17 +6,6 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 
 import Layout from '../components/layout';
-//! learn more efficient way to import photos
-import Prana from '../images/video_thumbnails/prana_manifest_farm.png';
-import Bitters from '../images/video_thumbnails/Screen Shot 2019-06-26 at 6.56.27 PM.png';
-import OJ from '../images/video_thumbnails/rainthumb.png';
-import Chrome from '../images/video_thumbnails/chromeindustries.png';
-import GreenDream from '../images/video_thumbnails/greendream.png';
-import JackGraydon from '../images/video_thumbnails/jackgraydon.png';
-import CheapSkates from '../images/video_thumbnails/CCS.png';
-import Alpental from '../images/video_thumbnails/Alpental.png';
-import Thrasher from '../images/video_thumbnails/thrasher.png';
-import Summit from '../images/video_thumbnails/The Summit at Snoqualmie- sprung.png';
 
 import SEO from '../components/seo';
 
@@ -36,7 +25,10 @@ const IndexPage = () => (
 					}}
 				>
 					<Link to="/video/prana_manifest_farm/">
-						<img src={Prana} alt="Prana Manifest Farm" />
+						<img
+							src="../../static/prana_manifest_farm-1d4e92cbc315a18832b2bb95dd261c67.png"
+							alt="Prana Manifest Farm"
+						/>
 						<Card.ImgOverlay className="text-center">
 							<Card.Title
 								style={{
@@ -63,7 +55,10 @@ const IndexPage = () => (
 					}}
 				>
 					<Link to="/video/bittersland/">
-						<img src={Bitters} alt="Bittersland" />
+						<img
+							src="../../static/Screen Shot 2019-06-26 at 6.56.27 PM-fdaa1d8c0a415f9a741d131e08250201.png"
+							alt="Bittersland"
+						/>
 					</Link>
 				</Col>
 				<Col
@@ -75,7 +70,7 @@ const IndexPage = () => (
 					}}
 				>
 					<Link to="/video/cruisingintherain/">
-						<img src={OJ} alt="Cruising in the Rain" />
+						<img src="../../static/rainthumb-28e162c7d7c85ed3a272a9bf18a0e4b3.png" alt="Cruising in the Rain" />
 					</Link>
 				</Col>
 				<Col
@@ -87,7 +82,7 @@ const IndexPage = () => (
 					}}
 				>
 					<Link to="/video/chromeindustries/">
-						<img src={Chrome} alt="Chrome Industries" />
+						<img src="../../static/chromeindustries-58ed57e84737453f1eac16261cee2f7c.png" alt="Chrome Industries" />
 					</Link>
 				</Col>
 				<Col
@@ -99,7 +94,7 @@ const IndexPage = () => (
 					}}
 				>
 					<Link to="/video/greendream/">
-						<img src={GreenDream} alt="Green Dream" />
+						<img src="../../static/greendream-7f09b0b5919904a4de37f0f0dff4102f.png" alt="Green Dream" />
 					</Link>
 				</Col>
 				<Col
@@ -111,7 +106,7 @@ const IndexPage = () => (
 					}}
 				>
 					<Link to="/video/jackgraydon/">
-						<img src={JackGraydon} alt="Jack Graydon" />
+						<img src="../../static/jackgraydon-2450058223da44fceccf67ca153079de.png" alt="Jack Graydon" />
 					</Link>
 				</Col>
 				<Col
@@ -123,7 +118,7 @@ const IndexPage = () => (
 					}}
 				>
 					<Link to="/video/ccs/">
-						<img src={CheapSkates} alt="CCS" />
+						<img src="../../static/CCS-ef15a145827871a474971cb22372bb5c.png" alt="CCS" />
 					</Link>
 				</Col>
 				<Col
@@ -135,7 +130,7 @@ const IndexPage = () => (
 					}}
 				>
 					<Link to="/video/alpental/">
-						<img src={Alpental} alt="Alpental" />
+						<img src="../../static/Alpental-33b4fd5b6e239eb7c7c98729b3760236.png" alt="Alpental" />
 					</Link>
 				</Col>
 				<Col
@@ -147,7 +142,7 @@ const IndexPage = () => (
 					}}
 				>
 					<Link to="/video/thrasher/">
-						<img src={Thrasher} alt="Thrasher" />
+						<img src="../../static/thrasher-83c9ee1e7383803a9ed04b6c9dfeda94.png" alt="Thrasher" />
 					</Link>
 				</Col>
 				<Col
@@ -159,7 +154,10 @@ const IndexPage = () => (
 					}}
 				>
 					<Link to="/video/summitatsnoqualmie/">
-						<img src={Summit} alt="Summit at Snoqualmie" />
+						<img
+							src="../../static/The Summit at Snoqualmie- sprung-e539868e30d606b3e3ac3ac29a6c9774.png"
+							alt="Summit at Snoqualmie"
+						/>
 					</Link>
 				</Col>
 			</Row>

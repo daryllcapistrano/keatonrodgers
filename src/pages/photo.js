@@ -6,12 +6,6 @@ import Col from 'react-bootstrap/Col';
 
 import Layout from '../components/layout';
 
-// import Image from '../components/image';
-import Action from '../images/photo_thumbnails/action thumbnail.jpg';
-import Architecture from '../images/photo_thumbnails/architecturethumbnail.jpg';
-import Poler from '../images/photo_thumbnails/poler thumbnail.jpg';
-import Portrait from '../images/photo_thumbnails/portraitthumbnail.jpg';
-
 import SEO from '../components/seo';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -30,7 +24,7 @@ const PhotoPage = () => (
 					}}
 				>
 					<Link to="/photography/action/">
-						<img src={Action} alt="Action" />
+						<img src="../../static/action thumbnail-08df447f7a568b1c096c721117aa1fc0.jpg" alt="Action" />
 					</Link>
 				</Col>
 				<Col
@@ -42,7 +36,7 @@ const PhotoPage = () => (
 					}}
 				>
 					<Link to="/photography/architecture/">
-						<img src={Architecture} alt="Architecture" />
+						<img src="../../static/architecturethumbnail-16916413f0ae96793bde9587507ca742.jpg" alt="Architecture" />
 					</Link>
 				</Col>
 			</Row>
@@ -56,7 +50,7 @@ const PhotoPage = () => (
 					}}
 				>
 					<Link to="/photography/poler/">
-						<img src={Poler} alt="Poler" />
+						<img src="../../static/poler thumbnail-4aceb9af7b940f3c416dda4197932757.jpg" alt="Poler" />
 					</Link>
 				</Col>
 				<Col
@@ -68,7 +62,7 @@ const PhotoPage = () => (
 					}}
 				>
 					<Link to="/photography/portrait/">
-						<img src={Portrait} alt="Portrait" />
+						<img src="../../static/portraitthumbnail-2e6e67ebb3f9822f78434e4769337c42.jpg" alt="Portrait" />
 					</Link>
 				</Col>
 			</Row>

@@ -13,20 +13,6 @@ module.exports = {
 				path: `${__dirname}/src/images`
 			}
 		},
-		// {
-		// 	resolve: `gatsby-source-filesystem`,
-		// 	options: {
-		// 		name: `photos`,
-		// 		path: `${__dirname}/src/images/photos`
-		// 	}
-		// },
-		// {
-		// 	resolve: `gatsby-source-filesystem`,
-		// 	options: {
-		// 		name: `video_thumbs`,
-		// 		path: `${__dirname}/src/images/video_thumbnails`
-		// 	}
-		// },
 		`gatsby-transformer-sharp`,
 		`gatsby-plugin-sharp`,
 		{
@@ -35,11 +21,6 @@ module.exports = {
 				name: `images`,
 				path: `${__dirname}/src/images`
 			}
-			// resolve: `gatsby-source-filesystem`,
-			// options: {
-			// 	name: `photo thumbnail`,
-			// 	path: `${__dirname}/src/images/photo_thumbnails`
-			// }
 		},
 		{
 			resolve: `gatsby-plugin-manifest`,

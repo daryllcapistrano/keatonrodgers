@@ -14,8 +14,24 @@ const CCS = () => (
 			<Row>
 				<iframe
 					title="CCS"
-					width="560"
-					height="315"
+					width="100%"
+					height="480px"
+					src="https://www.youtube.com/embed/Chizcoy1s2k?autoplay=1"
+					frameborder="0"
+					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen="true"
+				>
+					...
+				</iframe>
+			</Row>
+		</Container>
+		{/* update with correct src below */}
+		<Container>
+			<Row>
+				<iframe
+					title="CCS"
+					width="100%"
+					height="480px"
 					src="https://www.youtube.com/embed/Chizcoy1s2k"
 					frameborder="0"
 					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

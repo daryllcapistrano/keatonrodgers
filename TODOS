@@ -1,8 +1,9 @@
 Video Page:
-    - create modal
+    - style each Page
+    - set the width and height of each iframe, using alpental.js as example
 
 Photo Page:
-    - maintain aspect ratio for photos
+   
 
 Contact Page:
     - add info

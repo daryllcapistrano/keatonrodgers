@@ -1,6 +1,6 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
+// import Row from 'react-bootstrap/Row';
 // import Col from 'react-bootstrap/Col';
 import SEO from '../components/seo';
 import Layout from '../components/layout';
@@ -8,17 +8,13 @@ import PhotoGallery from '../components/PhotoGallery';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const RenameThis = () => (
+const Photos = () => (
 	<Layout>
-		<SEO title="RenameThis" />
+		<SEO title="Photos" />
 		<Container>
-			<Row>
-				<div>
-					<PhotoGallery />
-				</div>
-			</Row>
+			<PhotoGallery />
 		</Container>
 	</Layout>
 );
 
-export default RenameThis;
+export default Photos;

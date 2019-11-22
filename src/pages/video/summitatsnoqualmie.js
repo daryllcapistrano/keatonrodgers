@@ -14,9 +14,9 @@ const Summit = () => (
 			<Row>
 				<iframe
 					title="Sprung"
-					width="560"
-					height="315"
-					src="https://www.youtube.com/embed/qrr7StlV-b8"
+					width="100%"
+					height="480px"
+					src="https://www.youtube.com/embed/qrr7StlV-b8?autoplay=1"
 					frameborder="0"
 					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen="true"

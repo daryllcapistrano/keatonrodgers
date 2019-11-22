@@ -14,9 +14,9 @@ const Alpental = () => (
 			<Row>
 				<iframe
 					title="The Qualm"
-					width="560"
-					height="315"
-					src="https://www.youtube.com/embed/J2WXVR8tbDc"
+					width="100%"
+					height="480px"
+					src="https://www.youtube.com/embed/J2WXVR8tbDc?autoplay=1"
 					frameborder="0"
 					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen="true"

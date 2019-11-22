@@ -14,9 +14,9 @@ const Bittersland = () => (
 			<Row>
 				<iframe
 					title="Bittersland"
-					width="560"
-					height="315"
-					src="https://www.youtube.com/embed/J-zFcJ0rMTM"
+					width="100%"
+					height="480px"
+					src="https://www.youtube.com/embed/J-zFcJ0rMTM?autoplay=1"
 					frameborder="0"
 					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen="true"

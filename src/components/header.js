@@ -10,15 +10,17 @@ const Header = ({ siteTitle }) => (
 		<Navbar
 			expand="lg"
 			style={{
-				backgroundColor: 'white'
+				backgroundColor: 'white',
+				padding: '35px 0px 35px'
 			}}
+			sticky="top"
 		>
-			<Navbar.Brand href="/">Keaton Rodgers</Navbar.Brand>
+			<Navbar.Brand href="/">{siteTitle}</Navbar.Brand>
 			<Navbar.Toggle aria-controls="basic-navbar-nav" />
 			<Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
 				<Nav>
 					<Nav.Link href="/">Video</Nav.Link>
-					<Nav.Link href="/photo">Photo</Nav.Link>
+					<Nav.Link href="/photo">Photography</Nav.Link>
 					<Nav.Link href="/contact">Contact</Nav.Link>
 				</Nav>
 			</Navbar.Collapse>

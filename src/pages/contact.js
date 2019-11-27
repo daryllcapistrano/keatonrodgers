@@ -1,16 +1,13 @@
 import React from 'react';
-// import { Link } from 'gatsby';
+// Bootstrap
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
+// Components
 import Layout from '../components/layout';
-
-import ContactPhoto from '../images/model1.jpg';
-
 import SEO from '../components/seo';
-
-import 'bootstrap/dist/css/bootstrap.min.css';
+// Images
+import ContactPhoto from '../images/model1.jpg';
 
 const ContactPage = () => (
 	<Layout>
@@ -25,7 +22,12 @@ const ContactPage = () => (
 						padding: '5px'
 					}}
 				>
-					<img src={ContactPhoto} alt="Keaton Rodgers" />
+					<Container className="text-center">
+						<h1>contact info</h1>
+						<p>971.347.6704</p>
+						<p>keatonrodgers@gmail.com</p>
+						<p>@keatonrodgers</p>
+					</Container>
 				</Col>
 				<Col
 					sm={12}
@@ -35,7 +37,9 @@ const ContactPage = () => (
 						padding: '5px'
 					}}
 				>
-					<h1 className="text-center">contact info</h1>
+					<Container>
+						<img src={ContactPhoto} alt="Keaton Rodgers" />
+					</Container>
 				</Col>
 			</Row>
 		</Container>

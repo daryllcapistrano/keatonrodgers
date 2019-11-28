@@ -20,7 +20,7 @@ const IndexPage = () => (
 					sm={12}
 					md={6}
 					lg={4}
-					xl={6}
+					xl={3}
 					style={{
 						padding: '5px'
 					}}
@@ -56,7 +56,7 @@ const IndexPage = () => (
 					sm={12}
 					md={6}
 					lg={4}
-					xl={6}
+					xl={3}
 					style={{
 						padding: '5px'
 					}}
@@ -92,7 +92,7 @@ const IndexPage = () => (
 					sm={12}
 					md={6}
 					lg={4}
-					xl={6}
+					xl={3}
 					style={{
 						padding: '5px'
 					}}
@@ -128,7 +128,7 @@ const IndexPage = () => (
 					sm={12}
 					md={6}
 					lg={4}
-					xl={6}
+					xl={3}
 					style={{
 						padding: '5px'
 					}}
@@ -164,7 +164,7 @@ const IndexPage = () => (
 					sm={12}
 					md={6}
 					lg={4}
-					xl={6}
+					xl={3}
 					style={{
 						padding: '5px'
 					}}
@@ -200,7 +200,7 @@ const IndexPage = () => (
 					sm={12}
 					md={6}
 					lg={4}
-					xl={6}
+					xl={3}
 					style={{
 						padding: '5px'
 					}}
@@ -236,7 +236,7 @@ const IndexPage = () => (
 					sm={12}
 					md={6}
 					lg={4}
-					xl={6}
+					xl={3}
 					style={{
 						padding: '5px'
 					}}
@@ -272,7 +272,7 @@ const IndexPage = () => (
 					sm={12}
 					md={6}
 					lg={4}
-					xl={6}
+					xl={3}
 					style={{
 						padding: '5px'
 					}}
@@ -308,7 +308,7 @@ const IndexPage = () => (
 					sm={12}
 					md={6}
 					lg={4}
-					xl={6}
+					xl={3}
 					style={{
 						padding: '5px'
 					}}
@@ -344,7 +344,7 @@ const IndexPage = () => (
 					sm={12}
 					md={6}
 					lg={4}
-					xl={6}
+					xl={3}
 					style={{
 						padding: '5px'
 					}}

@@ -8,10 +8,11 @@ import Nav from 'react-bootstrap/Nav';
 const Header = ({ siteTitle }) => (
 	<Container>
 		<Navbar
-			expand="lg"
+			expand="sm"
 			style={{
 				backgroundColor: 'white',
-				padding: '35px 0px 35px'
+				padding: '35px 0px 35px',
+				zIndex: '0' // change to unhide nav on modal show
 			}}
 			sticky="top"
 		>

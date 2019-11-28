@@ -4,15 +4,20 @@ import PropTypes from 'prop-types';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import Helmet from 'react-helmet';
 
 const Header = ({ siteTitle }) => (
 	<Container>
+		<Helmet>
+			<link href="https://fonts.googleapis.com/css?family=Alatsi&display=swap" rel="stylesheet" />
+		</Helmet>
 		<Navbar
 			expand="sm"
 			style={{
 				backgroundColor: 'white',
 				padding: '35px 0px 35px',
-				zIndex: '0' // change to unhide nav on modal show
+				zIndex: '0', // change to unhide nav on modal show
+				fontFamily: 'Alatsi'
 			}}
 			sticky="top"
 		>

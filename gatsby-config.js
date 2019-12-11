@@ -1,6 +1,6 @@
 module.exports = {
 	siteMetadata: {
-		title: `Keaton Rodgers`,
+		title: `KEATON RODGERS`,
 		description: `Freelance Photography and Video`,
 		author: `daryllcapistrano`
 	},
@@ -25,8 +25,8 @@ module.exports = {
 		{
 			resolve: `gatsby-plugin-manifest`,
 			options: {
-				name: `gatsby-starter-default`,
-				short_name: `starter`,
+				name: `keaton-rodgers-portfolio`,
+				short_name: `kr-portfolio`,
 				start_url: `/`,
 				background_color: `#663399`,
 				theme_color: `#663399`,

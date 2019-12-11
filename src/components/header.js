@@ -21,13 +21,20 @@ const Header = ({ siteTitle }) => (
 			}}
 			sticky="top"
 		>
-			<Navbar.Brand href="/">{siteTitle}</Navbar.Brand>
+			<Navbar.Brand
+				href="/"
+				style={{
+					letterSpacing: '5px'
+				}}
+			>
+				{siteTitle}
+			</Navbar.Brand>
 			<Navbar.Toggle aria-controls="basic-navbar-nav" />
 			<Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
 				<Nav>
-					<Nav.Link href="/">Video</Nav.Link>
-					<Nav.Link href="/photo">Photography</Nav.Link>
-					<Nav.Link href="/contact">Contact</Nav.Link>
+					<Nav.Link href="/">VIDEO</Nav.Link>
+					<Nav.Link href="/photo">PHOTO</Nav.Link>
+					<Nav.Link href="/contact">CONTACT</Nav.Link>
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>

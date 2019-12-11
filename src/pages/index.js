@@ -40,9 +40,10 @@ const IndexPage = () => (
 								style={{
 									color: 'white',
 									fontSize: '40px',
+									textShadow: '2px 2px 3px rgba(0,0,0,0.57)',
 									width: '100%',
 									position: 'absolute',
-									top: '50%',
+									top: '85%',
 									left: '50%',
 									transform: 'translate(-50%, -50%)'
 								}}
@@ -76,9 +77,10 @@ const IndexPage = () => (
 								style={{
 									color: 'white',
 									fontSize: '40px',
+									textShadow: '2px 2px 3px rgba(0,0,0,0.57)',
 									width: '100%',
 									position: 'absolute',
-									top: '50%',
+									top: '85%',
 									left: '50%',
 									transform: 'translate(-50%, -50%)'
 								}}
@@ -112,9 +114,10 @@ const IndexPage = () => (
 								style={{
 									color: 'white',
 									fontSize: '40px',
+									textShadow: '2px 2px 3px rgba(0,0,0,0.57)',
 									width: '100%',
 									position: 'absolute',
-									top: '50%',
+									top: '85%',
 									left: '50%',
 									transform: 'translate(-50%, -50%)'
 								}}
@@ -148,9 +151,10 @@ const IndexPage = () => (
 								style={{
 									color: 'white',
 									fontSize: '40px',
+									textShadow: '2px 2px 3px rgba(0,0,0,0.57)',
 									width: '100%',
 									position: 'absolute',
-									top: '50%',
+									top: '85%',
 									left: '50%',
 									transform: 'translate(-50%, -50%)'
 								}}
@@ -184,9 +188,10 @@ const IndexPage = () => (
 								style={{
 									color: 'white',
 									fontSize: '40px',
+									textShadow: '2px 2px 3px rgba(0,0,0,0.57)',
 									width: '100%',
 									position: 'absolute',
-									top: '50%',
+									top: '85%',
 									left: '50%',
 									transform: 'translate(-50%, -50%)'
 								}}
@@ -220,9 +225,10 @@ const IndexPage = () => (
 								style={{
 									color: 'white',
 									fontSize: '40px',
+									textShadow: '2px 2px 3px rgba(0,0,0,0.57)',
 									width: '100%',
 									position: 'absolute',
-									top: '50%',
+									top: '85%',
 									left: '50%',
 									transform: 'translate(-50%, -50%)'
 								}}
@@ -256,9 +262,10 @@ const IndexPage = () => (
 								style={{
 									color: 'white',
 									fontSize: '40px',
+									textShadow: '2px 2px 3px rgba(0,0,0,0.57)',
 									width: '100%',
 									position: 'absolute',
-									top: '50%',
+									top: '85%',
 									left: '50%',
 									transform: 'translate(-50%, -50%)'
 								}}
@@ -292,9 +299,10 @@ const IndexPage = () => (
 								style={{
 									color: 'white',
 									fontSize: '40px',
+									textShadow: '2px 2px 3px rgba(0,0,0,0.57)',
 									width: '100%',
 									position: 'absolute',
-									top: '50%',
+									top: '85%',
 									left: '50%',
 									transform: 'translate(-50%, -50%)'
 								}}
@@ -328,9 +336,10 @@ const IndexPage = () => (
 								style={{
 									color: 'white',
 									fontSize: '40px',
+									textShadow: '2px 2px 3px rgba(0,0,0,0.57)',
 									width: '100%',
 									position: 'absolute',
-									top: '50%',
+									top: '85%',
 									left: '50%',
 									transform: 'translate(-50%, -50%)'
 								}}
@@ -364,9 +373,10 @@ const IndexPage = () => (
 								style={{
 									color: 'white',
 									fontSize: '40px',
+									textShadow: '2px 2px 3px rgba(0,0,0,0.57)',
 									width: '100%',
 									position: 'absolute',
-									top: '50%',
+									top: '85%',
 									left: '50%',
 									transform: 'translate(-50%, -50%)'
 								}}

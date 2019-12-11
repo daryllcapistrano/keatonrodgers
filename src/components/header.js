@@ -9,7 +9,7 @@ import Helmet from 'react-helmet';
 const Header = ({ siteTitle }) => (
 	<Container>
 		<Helmet>
-			<link href="https://fonts.googleapis.com/css?family=Alatsi&display=swap" rel="stylesheet" />
+			<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap" rel="stylesheet" />
 		</Helmet>
 		<Navbar
 			expand="sm"
@@ -17,26 +17,35 @@ const Header = ({ siteTitle }) => (
 				backgroundColor: 'white',
 				padding: '35px 0px 35px',
 				zIndex: '0', // change to unhide nav on modal show
-				fontFamily: 'Alatsi'
+				fontFamily: 'Poppins'
 			}}
 			sticky="top"
 		>
 			<Navbar.Brand
 				href="/"
 				style={{
-					letterSpacing: '5px'
+					letterSpacing: '2px',
+					fontSize: '36px',
+					fontWeight: '700'
 				}}
 			>
 				{siteTitle}
 			</Navbar.Brand>
-			<Navbar.Toggle aria-controls="basic-navbar-nav" />
-			<Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-				<Nav>
-					<Nav.Link href="/">VIDEO</Nav.Link>
-					<Nav.Link href="/photo">PHOTO</Nav.Link>
-					<Nav.Link href="/contact">CONTACT</Nav.Link>
-				</Nav>
-			</Navbar.Collapse>
+			<Navbar.Toggle
+				aria-controls="basic-navbar-nav"
+				style={{
+					borderColor: '#ffffff'
+				}}
+			/>
+			<Container>
+				<Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+					<Nav>
+						<Nav.Link href="/">VIDEO</Nav.Link>
+						<Nav.Link href="/photo">PHOTO</Nav.Link>
+						<Nav.Link href="/contact">CONTACT</Nav.Link>
+					</Nav>
+				</Navbar.Collapse>
+			</Container>
 		</Navbar>
 	</Container>
 );

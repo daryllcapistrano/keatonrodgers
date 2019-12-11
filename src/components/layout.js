@@ -27,13 +27,13 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
       <Helmet>
-			  <link href="https://fonts.googleapis.com/css?family=Alatsi&display=swap" rel="stylesheet" />
+			  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap" rel="stylesheet" />
 		  </Helmet>
       <div
         style={{
           margin: `0 auto`,
           padding: `0px 1.0875rem 1.45rem`,
-          fontFamily: 'Alatsi'
+          fontFamily: 'Poppins',
         }}
       >
         <main>{children}</main>

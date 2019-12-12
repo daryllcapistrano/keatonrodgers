@@ -34,11 +34,12 @@ const Header = ({ siteTitle }) => (
 			<Navbar.Toggle
 				aria-controls="basic-navbar-nav"
 				style={{
-					borderColor: '#ffffff'
+					borderColor: '#ffffff',
+					width: '100%'
 				}}
 			/>
 			<Container>
-				<Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+				<Navbar.Collapse id="basic-navbar-nav" className="justify-content-end text-center">
 					<Nav>
 						<Nav.Link href="/">VIDEO</Nav.Link>
 						<Nav.Link href="/photo">PHOTO</Nav.Link>

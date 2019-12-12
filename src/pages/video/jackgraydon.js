@@ -11,7 +11,7 @@ const JackGraydon = () => (
 	<Layout>
 		<SEO title="Jack Graydon" />
 		<Container>
-			<Row>
+			<Row class="embed-responsive embed-responsive-16by9">
 				<iframe
 					title="Jack Graydon"
 					width="100%"

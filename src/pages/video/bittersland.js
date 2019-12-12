@@ -11,7 +11,7 @@ const Bittersland = () => (
 	<Layout>
 		<SEO title="Bittersland" />
 		<Container>
-			<Row>
+			<Row class="embed-responsive embed-responsive-16by9">
 				<iframe
 					title="Bittersland"
 					width="100%"

@@ -11,7 +11,7 @@ const OJ = () => (
 	<Layout>
 		<SEO title="OJs Cruising in the Rain" />
 		<Container>
-			<Row>
+			<Row class="embed-responsive embed-responsive-16by9">
 				<iframe
 					title="OJs Cruising in the Rain"
 					width="100%"

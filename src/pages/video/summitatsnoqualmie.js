@@ -11,7 +11,7 @@ const Summit = () => (
 	<Layout>
 		<SEO title="Sprung" />
 		<Container>
-			<Row>
+			<Row class="embed-responsive embed-responsive-16by9">
 				<iframe
 					title="Sprung"
 					width="100%"

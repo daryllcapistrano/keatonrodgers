@@ -11,7 +11,7 @@ const Thrasher = () => (
 	<Layout>
 		<SEO title="Thrasher Magazine" />
 		<Container>
-			<Row>
+			<Row class="embed-responsive embed-responsive-16by9">
 				<iframe
 					title="Thrasher Magazine"
 					width="100%"

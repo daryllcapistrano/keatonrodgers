@@ -11,7 +11,7 @@ const Alpental = () => (
 	<Layout>
 		<SEO title="Alpental" />
 		<Container>
-			<Row>
+			<Row class="embed-responsive embed-responsive-16by9">
 				<iframe
 					title="The Qualm"
 					width="100%"

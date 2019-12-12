@@ -11,7 +11,7 @@ const Prana = () => (
 	<Layout>
 		<SEO title="Prana Manifest Farm" />
 		<Container>
-			<Row>
+			<Row class="embed-responsive embed-responsive-16by9">
 				<iframe
 					title="Prana Manifest Farm"
 					width="100%"

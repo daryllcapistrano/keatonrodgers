@@ -11,7 +11,7 @@ const CCS = () => (
 	<Layout>
 		<SEO title="CCS" />
 		<Container>
-			<Row>
+			<Row class="embed-responsive embed-responsive-16by9">
 				<iframe
 					title="CCS"
 					width="100%"
@@ -27,7 +27,7 @@ const CCS = () => (
 		</Container>
 		{/* update with correct src below */}
 		<Container>
-			<Row>
+			<Row class="embed-responsive embed-responsive-16by9">
 				<iframe
 					title="CCS"
 					width="100%"

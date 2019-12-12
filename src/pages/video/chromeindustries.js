@@ -11,7 +11,7 @@ const ChromeIndustries = () => (
 	<Layout>
 		<SEO title="Chrome Industries" />
 		<Container>
-			<Row>
+			<Row class="embed-responsive embed-responsive-16by9">
 				<iframe
 					title="Chrome Industries"
 					width="100%"
@@ -24,7 +24,7 @@ const ChromeIndustries = () => (
 					...
 				</iframe>
 			</Row>
-			<Row>
+			<Row class="embed-responsive embed-responsive-16by9">
 				<iframe
 					title="Chrome Industries"
 					width="100%"
@@ -37,7 +37,7 @@ const ChromeIndustries = () => (
 					...
 				</iframe>
 			</Row>
-			<Row>
+			<Row class="embed-responsive embed-responsive-16by9">
 				<iframe
 					title="Chrome Industries"
 					width="100%"

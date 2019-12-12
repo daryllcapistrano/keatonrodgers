@@ -11,7 +11,7 @@ const GreenDream = () => (
 	<Layout>
 		<SEO title="Green Dream" />
 		<Container>
-			<Row>
+			<Row class="embed-responsive embed-responsive-16by9">
 				<iframe
 					title="Green Dream"
 					width="100%"

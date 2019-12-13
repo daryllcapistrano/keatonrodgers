@@ -13,10 +13,10 @@ const CCS = () => (
 		<Container>
 			<Row class="embed-responsive embed-responsive-16by9">
 				<iframe
-					title="CCS"
+					title="Hubbaberg"
 					width="100%"
-					height="480px"
-					src="https://www.youtube.com/embed/Chizcoy1s2k?autoplay=1"
+					height="480"
+					src="https://www.youtube.com/embed/Chizcoy1s2k?"
 					frameborder="0"
 					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen="true"
@@ -24,21 +24,47 @@ const CCS = () => (
 					...
 				</iframe>
 			</Row>
+			<Row>
+				<h5 style={{ margin: `auto` }}>Hubbaberg</h5>
+			</Row>
+			<Row>
+				<p style={{ fontSize: `12px`, margin: `auto` }}>Client: CCS</p>
+			</Row>
+			<Row>
+				<p style={{ fontSize: `12px`, margin: `auto` }}>Camera Operators: Keaton Rodgers and Chris Varcadipane</p>
+			</Row>
+			<Row style={{ paddingBottom: `30px` }}>
+				<p style={{ fontSize: `12px`, margin: `auto` }}>Edit: Chris Varcadipane</p>
+			</Row>
 		</Container>
-		{/* update with correct src below */}
+
 		<Container>
 			<Row class="embed-responsive embed-responsive-16by9">
 				<iframe
-					title="CCS"
+					title="Go Skate Day 2018"
 					width="100%"
-					height="480px"
-					src="https://www.youtube.com/embed/Chizcoy1s2k"
+					height="480"
+					src="https://www.youtube.com/embed/5_1BHfPnQds"
 					frameborder="0"
 					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen="true"
 				>
 					...
 				</iframe>
+			</Row>
+			<Row>
+				<h5 style={{ margin: `auto` }}>Go Skateboarding Day 2018</h5>
+			</Row>
+			<Row>
+				<p style={{ fontSize: `12px`, margin: `auto` }}>Client: CCS</p>
+			</Row>
+			<Row>
+				<p style={{ fontSize: `12px`, margin: `auto` }}>
+					Camera Operators: Keaton Rodgers, Chris Varcadipane, Myles Laurion
+				</p>
+			</Row>
+			<Row>
+				<p style={{ fontSize: `12px`, margin: `auto` }}>Edit: Chris Varcadipane</p>
 			</Row>
 		</Container>
 	</Layout>

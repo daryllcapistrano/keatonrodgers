@@ -13,10 +13,10 @@ const ChromeIndustries = () => (
 		<Container>
 			<Row class="embed-responsive embed-responsive-16by9">
 				<iframe
-					title="Chrome Industries"
+					title="Shorts Stories - Pocket"
 					width="100%"
-					height="480px"
-					src="https://www.youtube.com/embed/XmNUroFU0lc?autoplay=1"
+					height="480"
+					src="https://www.youtube.com/embed/XmNUroFU0lc"
 					frameborder="0"
 					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen="true"
@@ -26,9 +26,9 @@ const ChromeIndustries = () => (
 			</Row>
 			<Row class="embed-responsive embed-responsive-16by9">
 				<iframe
-					title="Chrome Industries"
+					title="Shorts Stories - U Lock"
 					width="100%"
-					height="480px"
+					height="480"
 					src="https://www.youtube.com/embed/WrBE1s6HSo4"
 					frameborder="0"
 					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -39,9 +39,9 @@ const ChromeIndustries = () => (
 			</Row>
 			<Row class="embed-responsive embed-responsive-16by9">
 				<iframe
-					title="Chrome Industries"
+					title="Shorts Stories - Tow"
 					width="100%"
-					height="480px"
+					height="480"
 					src="https://www.youtube.com/embed/_8menJ4w7hs"
 					frameborder="0"
 					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -49,6 +49,15 @@ const ChromeIndustries = () => (
 				>
 					...
 				</iframe>
+			</Row>
+			<Row>
+				<h5 style={{ margin: `auto` }}>Shorts Stories</h5>
+			</Row>
+			<Row>
+				<p style={{ fontSize: `12px`, margin: `auto` }}>Client: Chrome Industries</p>
+			</Row>
+			<Row>
+				<p style={{ fontSize: `12px`, margin: `auto` }}>Director: Keaton Rodgers</p>
 			</Row>
 		</Container>
 	</Layout>

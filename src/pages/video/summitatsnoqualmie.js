@@ -15,14 +15,23 @@ const Summit = () => (
 				<iframe
 					title="Sprung"
 					width="100%"
-					height="480px"
-					src="https://www.youtube.com/embed/qrr7StlV-b8?autoplay=1"
+					height="480"
+					src="https://www.youtube.com/embed/qrr7StlV-b8"
 					frameborder="0"
 					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen="true"
 				>
 					...
 				</iframe>
+			</Row>
+			<Row>
+				<h5 style={{ margin: `auto` }}>The Qualm</h5>
+			</Row>
+			<Row>
+				<p style={{ fontSize: `12px`, margin: `auto` }}>Client: The Summit at Snoqualmie</p>
+			</Row>
+			<Row>
+				<p style={{ fontSize: `12px`, margin: `auto` }}>Film and Edit: Keaton Rodgers</p>
 			</Row>
 		</Container>
 	</Layout>

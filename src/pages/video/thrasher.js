@@ -13,16 +13,25 @@ const Thrasher = () => (
 		<Container>
 			<Row class="embed-responsive embed-responsive-16by9">
 				<iframe
-					title="Thrasher Magazine"
+					title="Burnside Halloween"
 					width="100%"
-					height="480px"
-					src="https://www.youtube.com/embed/sCUbL131tc0?autoplay=1"
+					height="480"
+					src="https://www.youtube.com/embed/sCUbL131tc0"
 					frameborder="0"
 					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen="true"
 				>
 					...
 				</iframe>
+			</Row>
+			<Row>
+				<h5 style={{ margin: `auto` }}>Burnside Halloween</h5>
+			</Row>
+			<Row>
+				<p style={{ fontSize: `12px`, margin: `auto` }}>Client: Thrasher Magazine</p>
+			</Row>
+			<Row>
+				<p style={{ fontSize: `12px`, margin: `auto` }}>Film and Edit: Keaton Rodgers and Tyson Vassar</p>
 			</Row>
 		</Container>
 	</Layout>

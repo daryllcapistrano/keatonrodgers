@@ -15,8 +15,8 @@ const OJ = () => (
 				<iframe
 					title="OJs Cruising in the Rain"
 					width="100%"
-					height="480px"
-					src="https://www.youtube.com/embed/fQgDbC9H9ag?autoplay=1"
+					height="480"
+					src="https://www.youtube.com/embed/fQgDbC9H9ag"
 					frameborder="0"
 					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen="true"
@@ -24,6 +24,15 @@ const OJ = () => (
 					...
 				</iframe>
 			</Row>
+			{/* <Row>
+				<h5 style={{ margin: `auto` }}>Hand Painted Shirts</h5>
+			</Row>
+			<Row>
+				<p style={{ fontSize: `12px`, margin: `auto` }}>Client: Jack Graydon</p>
+			</Row>
+			<Row>
+				<p style={{ fontSize: `12px`, margin: `auto` }}>Film and Edit: Keaton Rodgers</p>
+			</Row> */}
 		</Container>
 	</Layout>
 );

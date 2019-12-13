@@ -19,11 +19,11 @@ const ContactPage = () => (
 					md={6}
 					lg={6}
 					style={{
-						padding: '5px'
+						// override default padding
+						padding: '0px'
 					}}
 				>
 					<Container className="text-center">
-						<h1>contact info</h1>
 						<p>971.347.6704</p>
 						<p>keatonrodgers@gmail.com</p>
 						<p>@keatonrodgers</p>
@@ -34,11 +34,20 @@ const ContactPage = () => (
 					md={6}
 					lg={6}
 					style={{
-						padding: '5px'
+						// override default padding
+						padding: '0px'
 					}}
 				>
 					<Container>
-						<img src={ContactPhoto} alt="Keaton Rodgers" />
+						<img
+							src={ContactPhoto}
+							alt="Keaton Rodgers"
+							// style={{
+							// 	margin: `0 auto`,
+							// 	padding: `0px 1.0875rem 1.45rem`,
+							// 	width: `100%`
+							// }}
+						/>
 					</Container>
 				</Col>
 			</Row>

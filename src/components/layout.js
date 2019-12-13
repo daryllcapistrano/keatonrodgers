@@ -33,19 +33,19 @@ const Layout = ({ children }) => {
         style={{
           margin: `0 auto`,
           padding: `0px 1.0875rem 1.45rem`,
-          fontFamily: 'Poppins',
+          fontFamily: `Poppins`,
         }}
       >
         <main>{children}</main>
         <footer className="text-center"
         style={{
           margin: `0 auto`,
-          padding: `35px 1.0875rem 1.45rem`,
+          padding: `150px 1.0875rem 1.45rem`
         }}
         >
           © {new Date().getFullYear()}
           {` `}
-          <a href="https://www.instagram.com/keatonrodgers">Keaton Rodgers</a>
+          <a href="https://www.instagram.com/keatonrodgers">KR Media</a>
         </footer>
       </div>
     </>

@@ -15,7 +15,7 @@ const Header = ({ siteTitle }) => (
 			expand="sm"
 			style={{
 				backgroundColor: 'white',
-				padding: '35px 0px 35px',
+				padding: '15px 0px 15px',
 				zIndex: '0', // change to unhide nav on modal show
 				fontFamily: 'Poppins'
 			}}
@@ -35,7 +35,8 @@ const Header = ({ siteTitle }) => (
 				aria-controls="basic-navbar-nav"
 				style={{
 					borderColor: '#ffffff',
-					width: '100%'
+					width: '100%',
+					marginTop: `5px`
 				}}
 			/>
 			<Container>

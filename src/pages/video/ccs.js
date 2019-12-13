@@ -31,7 +31,7 @@ const CCS = () => (
 				<p style={{ fontSize: `12px`, margin: `auto` }}>Client: CCS</p>
 			</Row>
 			<Row>
-				<p style={{ fontSize: `12px`, margin: `auto` }}>Camera Operators: Keaton Rodgers and Chris Varcadipane</p>
+				<p style={{ fontSize: `12px`, margin: `auto` }}>Camera Operators: Keaton Rodgers & Chris Varcadipane</p>
 			</Row>
 			<Row style={{ paddingBottom: `30px` }}>
 				<p style={{ fontSize: `12px`, margin: `auto` }}>Edit: Chris Varcadipane</p>

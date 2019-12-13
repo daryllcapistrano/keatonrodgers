@@ -31,7 +31,7 @@ const Thrasher = () => (
 				<p style={{ fontSize: `12px`, margin: `auto` }}>Client: Thrasher Magazine</p>
 			</Row>
 			<Row>
-				<p style={{ fontSize: `12px`, margin: `auto` }}>Film and Edit: Keaton Rodgers and Tyson Vassar</p>
+				<p style={{ fontSize: `12px`, margin: `auto` }}>Film & Edit: Keaton Rodgers & Tyson Vassar</p>
 			</Row>
 		</Container>
 	</Layout>

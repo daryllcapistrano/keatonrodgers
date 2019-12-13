@@ -31,7 +31,7 @@ const Alpental = () => (
 				<p style={{ fontSize: `12px`, margin: `auto` }}>Client: Alpental</p>
 			</Row>
 			<Row>
-				<p style={{ fontSize: `12px`, margin: `auto` }}>Film and Edit: Keaton Rodgers</p>
+				<p style={{ fontSize: `12px`, margin: `auto` }}>Film & Edit: Keaton Rodgers</p>
 			</Row>
 		</Container>
 	</Layout>

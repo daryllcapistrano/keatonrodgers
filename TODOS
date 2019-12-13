@@ -1,6 +1,6 @@
 Video Page:
     - style each Page
-    - set the width and height of each iframe, using alpental.js as example
+    - style the text and fix alignment for text wrap
 
 Photo Page:
    
@@ -9,6 +9,7 @@ Contact Page:
     - make input form similar to atibaphoto.com/contact-1
 
 change single quotes to backticks on styling
+update SEO tags for best practices
 
 v2. 
 Break out footer and styles

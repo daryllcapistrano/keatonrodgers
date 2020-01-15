@@ -24,9 +24,11 @@ const ContactPage = () => (
 					}}
 				>
 					<Container className="text-center">
-						<p>971.347.6704</p>
-						<p>keatonrodgers@gmail.com</p>
-						<p>@keatonrodgers</p>
+						<a href="tel:" style={{ margin: `auto` }}>
+							971.347.6704
+						</a>
+						<a href="mailto:">keatonrodgers@gmail.com</a>
+						<a href="https://www.instagram.com/keatonrodgers">@keatonrodgers</a>
 					</Container>
 				</Col>
 				<Col

@@ -25,7 +25,7 @@ const Header = ({ siteTitle }) => (
 				href="/"
 				style={{
 					letterSpacing: '2px',
-					fontSize: '36px',
+					fontSize: '2rem',
 					fontWeight: '700'
 				}}
 			>

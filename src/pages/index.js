@@ -25,6 +25,44 @@ const IndexPage = () => (
 						padding: '5px'
 					}}
 				>
+					<Link to="/video/wornpath/">
+						<img
+							src="../../static/prana_manifest_farm-1d4e92cbc315a18832b2bb95dd261c67.png"
+							alt="Wornpath"
+							// style={{
+							// 	webkitBoxShadow: '2px 2px 5px 0px rgba(0,0,0,0.6)',
+							// 	mozBoxShadow: '2px 2px 5px 0px rgba(0,0,0,0.6)',
+							// 	boxShadow: '2px 2px 5px 0px rgba(0,0,0,0.6),'
+							// }}
+						/>
+						<Card.ImgOverlay className="text-center">
+							<Card.Title
+								style={{
+									color: 'white',
+									fontSize: '35px',
+									fontWeight: '500',
+									textShadow: '2px 2px 3px rgba(0,0,0,0.57)',
+									width: '100%',
+									position: 'absolute',
+									top: '85%',
+									left: '50%',
+									transform: 'translate(-50%, -50%)'
+								}}
+							>
+								Wornpath
+							</Card.Title>
+						</Card.ImgOverlay>
+					</Link>
+				</Col>
+				<Col
+					sm={12}
+					md={6}
+					lg={4}
+					xl={4}
+					style={{
+						padding: '5px'
+					}}
+				>
 					<Link to="/video/prana_manifest_farm/">
 						<img
 							src="../../static/prana_manifest_farm-1d4e92cbc315a18832b2bb95dd261c67.png"
@@ -101,6 +139,82 @@ const IndexPage = () => (
 						padding: '5px'
 					}}
 				>
+					<Link to="/video/cruisingintheleafs/">
+						<img
+							src="../../static/CCS-ef15a145827871a474971cb22372bb5c.png"
+							alt="cruisingintheleafs"
+							// style={{
+							// 	webkitBoxShadow: '2px 2px 5px 0px rgba(0,0,0,0.6)',
+							// 	mozBoxShadow: '2px 2px 5px 0px rgba(0,0,0,0.6)',
+							// 	boxShadow: '2px 2px 5px 0px rgba(0,0,0,0.6),'
+							// }}
+						/>
+						<Card.ImgOverlay className="text-center">
+							<Card.Title
+								style={{
+									color: 'white',
+									fontSize: '35px',
+									fontWeight: '500',
+									textShadow: '2px 2px 3px rgba(0,0,0,0.57)',
+									width: '100%',
+									position: 'absolute',
+									top: '85%',
+									left: '50%',
+									transform: 'translate(-50%, -50%)'
+								}}
+							>
+								OJ Wheels <br /> Cruising in the Leafs
+							</Card.Title>
+						</Card.ImgOverlay>
+					</Link>
+				</Col>
+				<Col
+					sm={12}
+					md={6}
+					lg={4}
+					xl={4}
+					style={{
+						padding: '5px'
+					}}
+				>
+					<Link to="/video/slimeballs/">
+						<img
+							src="../../static/thrasher-83c9ee1e7383803a9ed04b6c9dfeda94.png"
+							alt="Slimeballs"
+							// style={{
+							// 	webkitBoxShadow: '2px 2px 5px 0px rgba(0,0,0,0.6)',
+							// 	mozBoxShadow: '2px 2px 5px 0px rgba(0,0,0,0.6)',
+							// 	boxShadow: '2px 2px 5px 0px rgba(0,0,0,0.6),'
+							// }}
+						/>
+						<Card.ImgOverlay className="text-center">
+							<Card.Title
+								style={{
+									color: 'white',
+									fontSize: '35px',
+									fontWeight: '500',
+									textShadow: '2px 2px 3px rgba(0,0,0,0.57)',
+									width: '100%',
+									position: 'absolute',
+									top: '85%',
+									left: '50%',
+									transform: 'translate(-50%, -50%)'
+								}}
+							>
+								Slimeballs
+							</Card.Title>
+						</Card.ImgOverlay>
+					</Link>
+				</Col>
+				<Col
+					sm={12}
+					md={6}
+					lg={4}
+					xl={4}
+					style={{
+						padding: '5px'
+					}}
+				>
 					<Link to="/video/cruisingintherain/">
 						<img
 							src="../../static/rainthumb-28e162c7d7c85ed3a272a9bf18a0e4b3.png"
@@ -125,7 +239,7 @@ const IndexPage = () => (
 									transform: 'translate(-50%, -50%)'
 								}}
 							>
-								OJ Wheels
+								OJ Wheels <br /> Cruising in the Rain
 							</Card.Title>
 						</Card.ImgOverlay>
 					</Link>
@@ -244,44 +358,7 @@ const IndexPage = () => (
 						</Card.ImgOverlay>
 					</Link>
 				</Col>
-				<Col
-					sm={12}
-					md={6}
-					lg={4}
-					xl={4}
-					style={{
-						padding: '5px'
-					}}
-				>
-					<Link to="/video/ccs/">
-						<img
-							src="../../static/CCS-ef15a145827871a474971cb22372bb5c.png"
-							alt="CCS"
-							// style={{
-							// 	webkitBoxShadow: '2px 2px 5px 0px rgba(0,0,0,0.6)',
-							// 	mozBoxShadow: '2px 2px 5px 0px rgba(0,0,0,0.6)',
-							// 	boxShadow: '2px 2px 5px 0px rgba(0,0,0,0.6),'
-							// }}
-						/>
-						<Card.ImgOverlay className="text-center">
-							<Card.Title
-								style={{
-									color: 'white',
-									fontSize: '35px',
-									fontWeight: '500',
-									textShadow: '2px 2px 3px rgba(0,0,0,0.57)',
-									width: '100%',
-									position: 'absolute',
-									top: '85%',
-									left: '50%',
-									transform: 'translate(-50%, -50%)'
-								}}
-							>
-								CCS
-							</Card.Title>
-						</Card.ImgOverlay>
-					</Link>
-				</Col>
+
 				<Col
 					sm={12}
 					md={6}
@@ -320,44 +397,7 @@ const IndexPage = () => (
 						</Card.ImgOverlay>
 					</Link>
 				</Col>
-				<Col
-					sm={12}
-					md={6}
-					lg={4}
-					xl={4}
-					style={{
-						padding: '5px'
-					}}
-				>
-					<Link to="/video/thrasher/">
-						<img
-							src="../../static/thrasher-83c9ee1e7383803a9ed04b6c9dfeda94.png"
-							alt="Thrasher"
-							// style={{
-							// 	webkitBoxShadow: '2px 2px 5px 0px rgba(0,0,0,0.6)',
-							// 	mozBoxShadow: '2px 2px 5px 0px rgba(0,0,0,0.6)',
-							// 	boxShadow: '2px 2px 5px 0px rgba(0,0,0,0.6),'
-							// }}
-						/>
-						<Card.ImgOverlay className="text-center">
-							<Card.Title
-								style={{
-									color: 'white',
-									fontSize: '35px',
-									fontWeight: '500',
-									textShadow: '2px 2px 3px rgba(0,0,0,0.57)',
-									width: '100%',
-									position: 'absolute',
-									top: '85%',
-									left: '50%',
-									transform: 'translate(-50%, -50%)'
-								}}
-							>
-								Thrasher
-							</Card.Title>
-						</Card.ImgOverlay>
-					</Link>
-				</Col>
+
 				<Col
 					sm={12}
 					md={6}

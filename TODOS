@@ -1,13 +1,14 @@
 Video Page:
-    - style each Page
-    - style the text and fix alignment for text wrap
-    - make accordion for easier access to other videos
+    update to correct thumbnails 
+    import assets directly into file using:
+        https://www.gatsbyjs.org/docs/importing-assets-into-files/
 
 Photo Page:
+    fix sizing for photos
    
 
 Contact Page:
-    - make input form similar to atibaphoto.com/contact-1
+    finish styling
 
 change single quotes to backticks on styling
 update SEO tags for best practices

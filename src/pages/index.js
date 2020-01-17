@@ -139,7 +139,7 @@ const IndexPage = () => (
 						padding: '5px'
 					}}
 				>
-					<Link to="/video/cruisingintheleafs/">
+					<Link to="/video/cruisingintheleaves/">
 						<img
 							src="../../static/CCS-ef15a145827871a474971cb22372bb5c.png"
 							alt="cruisingintheleafs"
@@ -426,7 +426,7 @@ const IndexPage = () => (
 									textShadow: '2px 2px 3px rgba(0,0,0,0.57)',
 									width: '100%',
 									position: 'absolute',
-									top: '76%',
+									top: '85%',
 									left: '50%',
 									transform: 'translate(-50%, -50%)'
 								}}

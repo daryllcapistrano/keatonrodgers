@@ -7,13 +7,13 @@ import Layout from '../../components/layout';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const OJLeafs = () => (
+const CruisingLeaves = () => (
 	<Layout>
-		<SEO title="OJs Cruising in the Leafs" />
+		<SEO title="OJs Cruising in the Leaves" />
 		<Container>
 			<Row class="embed-responsive embed-responsive-16by9">
 				<iframe
-					title="OJs Cruising in the Leafs"
+					title="OJs Cruising in the Leaves"
 					width="100%"
 					height="480"
 					src="https://www.youtube.com/embed/sCUbL131tc0"
@@ -25,7 +25,7 @@ const OJLeafs = () => (
 				</iframe>
 			</Row>
 			<Row>
-				<h5 style={{ margin: `auto` }}>OJs Cruising in the Leafs</h5>
+				<h5 style={{ margin: `auto` }}>OJs Cruising in the Leaves</h5>
 			</Row>
 			<Row>
 				<p style={{ fontSize: `12px`, margin: `auto` }}>Client: OJ Wheels</p>
@@ -37,4 +37,4 @@ const OJLeafs = () => (
 	</Layout>
 );
 
-export default OJLeafs;
+export default CruisingLeaves;

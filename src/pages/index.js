@@ -6,10 +6,20 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 
 import Layout from '../components/layout';
-
 import SEO from '../components/seo';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
+// video thumbnails
+import Wornpath from '../images/video_thumbnails/WP_thumbnail.jpg';
+import ManifestFarm from '../images/video_thumbnails/prana_manifest_farm.png';
+import Bittersland from '../images/video_thumbnails/Bittersland.png';
+import OJLeaves from '../images/video_thumbnails/oj_fall_thumb.jpg';
+import SlimeBalls from '../images/video_thumbnails/SlimeBalls_thumbnail.jpg';
+import OJRain from '../images/video_thumbnails/rainthumb.png';
+import ChromeIndustries from '../images/video_thumbnails/chromeindustries.png';
+import GreenDream from '../images/video_thumbnails/greendream.png';
+import JackGraydon from '../images/video_thumbnails/jackgraydon.png';
+import Alpental from '../images/video_thumbnails/Alpental.png';
+import Summit from '../images/video_thumbnails/The Summit at Snoqualmie- sprung.png';
 
 const IndexPage = () => (
 	<Layout>
@@ -27,7 +37,7 @@ const IndexPage = () => (
 				>
 					<Link to="/video/wornpath/">
 						<img
-							src="../../static/prana_manifest_farm-1d4e92cbc315a18832b2bb95dd261c67.png"
+							src={Wornpath}
 							alt="Wornpath"
 							// style={{
 							// 	webkitBoxShadow: '2px 2px 5px 0px rgba(0,0,0,0.6)',
@@ -65,7 +75,7 @@ const IndexPage = () => (
 				>
 					<Link to="/video/prana_manifest_farm/">
 						<img
-							src="../../static/prana_manifest_farm-1d4e92cbc315a18832b2bb95dd261c67.png"
+							src={ManifestFarm}
 							alt="Prana Manifest Farm"
 							// style={{
 							// 	webkitBoxShadow: '2px 2px 5px 0px rgba(0,0,0,0.6)',
@@ -103,7 +113,7 @@ const IndexPage = () => (
 				>
 					<Link to="/video/bittersland/">
 						<img
-							src="../../static/Screen Shot 2019-06-26 at 6.56.27 PM-fdaa1d8c0a415f9a741d131e08250201.png"
+							src={Bittersland}
 							alt="Bittersland"
 							// style={{
 							// 	webkitBoxShadow: '2px 2px 5px 0px rgba(0,0,0,0.6)',
@@ -141,7 +151,7 @@ const IndexPage = () => (
 				>
 					<Link to="/video/cruisingintheleaves/">
 						<img
-							src="../../static/CCS-ef15a145827871a474971cb22372bb5c.png"
+							src={OJLeaves}
 							alt="cruisingintheleafs"
 							// style={{
 							// 	webkitBoxShadow: '2px 2px 5px 0px rgba(0,0,0,0.6)',
@@ -163,7 +173,7 @@ const IndexPage = () => (
 									transform: 'translate(-50%, -50%)'
 								}}
 							>
-								OJ Wheels <br /> Cruising in the Leafs
+								OJ Wheels <br /> Cruising in the Leaves
 							</Card.Title>
 						</Card.ImgOverlay>
 					</Link>
@@ -179,7 +189,7 @@ const IndexPage = () => (
 				>
 					<Link to="/video/slimeballs/">
 						<img
-							src="../../static/thrasher-83c9ee1e7383803a9ed04b6c9dfeda94.png"
+							src={SlimeBalls}
 							alt="Slimeballs"
 							// style={{
 							// 	webkitBoxShadow: '2px 2px 5px 0px rgba(0,0,0,0.6)',
@@ -217,7 +227,7 @@ const IndexPage = () => (
 				>
 					<Link to="/video/cruisingintherain/">
 						<img
-							src="../../static/rainthumb-28e162c7d7c85ed3a272a9bf18a0e4b3.png"
+							src={OJRain}
 							alt="Cruising in the Rain"
 							// style={{
 							// 	webkitBoxShadow: '2px 2px 5px 0px rgba(0,0,0,0.6)',
@@ -255,7 +265,7 @@ const IndexPage = () => (
 				>
 					<Link to="/video/chromeindustries/">
 						<img
-							src="../../static/chromeindustries-58ed57e84737453f1eac16261cee2f7c.png"
+							src={ChromeIndustries}
 							alt="Chrome Industries"
 							// style={{
 							// 	webkitBoxShadow: '2px 2px 5px 0px rgba(0,0,0,0.6)',
@@ -293,7 +303,7 @@ const IndexPage = () => (
 				>
 					<Link to="/video/greendream/">
 						<img
-							src="../../static/greendream-7f09b0b5919904a4de37f0f0dff4102f.png"
+							src={GreenDream}
 							alt="Green Dream"
 							// style={{
 							// 	webkitBoxShadow: '2px 2px 5px 0px rgba(0,0,0,0.6)',
@@ -331,7 +341,7 @@ const IndexPage = () => (
 				>
 					<Link to="/video/jackgraydon/">
 						<img
-							src="../../static/jackgraydon-2450058223da44fceccf67ca153079de.png"
+							src={JackGraydon}
 							alt="Jack Graydon"
 							// style={{
 							// 	webkitBoxShadow: '2px 2px 5px 0px rgba(0,0,0,0.6)',
@@ -370,7 +380,7 @@ const IndexPage = () => (
 				>
 					<Link to="/video/alpental/">
 						<img
-							src="../../static/Alpental-33b4fd5b6e239eb7c7c98729b3760236.png"
+							src={Alpental}
 							alt="Alpental"
 							// style={{
 							// 	webkitBoxShadow: '2px 2px 5px 0px rgba(0,0,0,0.6)',
@@ -409,7 +419,7 @@ const IndexPage = () => (
 				>
 					<Link to="/video/summitatsnoqualmie/">
 						<img
-							src="../../static/The Summit at Snoqualmie- sprung-e539868e30d606b3e3ac3ac29a6c9774.png"
+							src={Summit}
 							alt="Summit at Snoqualmie"
 							// style={{
 							// 	webkitBoxShadow: '2px 2px 5px 0px rgba(0,0,0,0.6)',

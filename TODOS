@@ -1,10 +1,9 @@
 Video Page:
-    update to correct thumbnails 
-    import assets directly into file using:
-        https://www.gatsbyjs.org/docs/importing-assets-into-files/
+    make a previous and next button
 
 Photo Page:
     fix sizing for photos
+        -maybe import old code 
    
 
 Contact Page:

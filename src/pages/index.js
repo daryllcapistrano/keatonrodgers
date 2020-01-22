@@ -8,7 +8,7 @@ import Card from 'react-bootstrap/Card';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// video thumbnails
+//  THUMBNAIL IMPORTS
 import Wornpath from '../images/video_thumbnails/WP_thumbnail.jpg';
 import ManifestFarm from '../images/video_thumbnails/prana_manifest_farm.png';
 import Bittersland from '../images/video_thumbnails/Bittersland.png';
@@ -49,12 +49,12 @@ const IndexPage = () => (
 							<Card.Title
 								style={{
 									color: 'white',
-									fontSize: '35px',
+									fontSize: '32px',
 									fontWeight: '500',
 									textShadow: '2px 2px 3px rgba(0,0,0,0.57)',
 									width: '100%',
 									position: 'absolute',
-									top: '85%',
+									top: '80%',
 									left: '50%',
 									transform: 'translate(-50%, -50%)'
 								}}
@@ -87,12 +87,12 @@ const IndexPage = () => (
 							<Card.Title
 								style={{
 									color: 'white',
-									fontSize: '35px',
+									fontSize: '32px',
 									fontWeight: '500',
 									textShadow: '2px 2px 3px rgba(0,0,0,0.57)',
 									width: '100%',
 									position: 'absolute',
-									top: '85%',
+									top: '80%',
 									left: '50%',
 									transform: 'translate(-50%, -50%)'
 								}}
@@ -125,12 +125,12 @@ const IndexPage = () => (
 							<Card.Title
 								style={{
 									color: 'white',
-									fontSize: '35px',
+									fontSize: '32px',
 									fontWeight: '500',
 									textShadow: '2px 2px 3px rgba(0,0,0,0.57)',
 									width: '100%',
 									position: 'absolute',
-									top: '85%',
+									top: '80%',
 									left: '50%',
 									transform: 'translate(-50%, -50%)'
 								}}
@@ -152,7 +152,7 @@ const IndexPage = () => (
 					<Link to="/video/cruisingintheleaves/">
 						<img
 							src={OJLeaves}
-							alt="cruisingintheleafs"
+							alt="cruisingintheleaves"
 							// style={{
 							// 	webkitBoxShadow: '2px 2px 5px 0px rgba(0,0,0,0.6)',
 							// 	mozBoxShadow: '2px 2px 5px 0px rgba(0,0,0,0.6)',
@@ -163,12 +163,12 @@ const IndexPage = () => (
 							<Card.Title
 								style={{
 									color: 'white',
-									fontSize: '35px',
+									fontSize: '32px',
 									fontWeight: '500',
 									textShadow: '2px 2px 3px rgba(0,0,0,0.57)',
 									width: '100%',
 									position: 'absolute',
-									top: '85%',
+									top: '80%',
 									left: '50%',
 									transform: 'translate(-50%, -50%)'
 								}}
@@ -201,12 +201,12 @@ const IndexPage = () => (
 							<Card.Title
 								style={{
 									color: 'white',
-									fontSize: '35px',
+									fontSize: '32px',
 									fontWeight: '500',
 									textShadow: '2px 2px 3px rgba(0,0,0,0.57)',
 									width: '100%',
 									position: 'absolute',
-									top: '85%',
+									top: '80%',
 									left: '50%',
 									transform: 'translate(-50%, -50%)'
 								}}
@@ -239,12 +239,12 @@ const IndexPage = () => (
 							<Card.Title
 								style={{
 									color: 'white',
-									fontSize: '35px',
+									fontSize: '32px',
 									fontWeight: '500',
 									textShadow: '2px 2px 3px rgba(0,0,0,0.57)',
 									width: '100%',
 									position: 'absolute',
-									top: '85%',
+									top: '80%',
 									left: '50%',
 									transform: 'translate(-50%, -50%)'
 								}}
@@ -277,12 +277,12 @@ const IndexPage = () => (
 							<Card.Title
 								style={{
 									color: 'white',
-									fontSize: '35px',
+									fontSize: '32px',
 									fontWeight: '500',
 									textShadow: '2px 2px 3px rgba(0,0,0,0.57)',
 									width: '100%',
 									position: 'absolute',
-									top: '85%',
+									top: '80%',
 									left: '50%',
 									transform: 'translate(-50%, -50%)'
 								}}
@@ -315,12 +315,12 @@ const IndexPage = () => (
 							<Card.Title
 								style={{
 									color: 'white',
-									fontSize: '35px',
+									fontSize: '32px',
 									fontWeight: '500',
 									textShadow: '2px 2px 3px rgba(0,0,0,0.57)',
 									width: '100%',
 									position: 'absolute',
-									top: '85%',
+									top: '80%',
 									left: '50%',
 									transform: 'translate(-50%, -50%)'
 								}}
@@ -353,12 +353,12 @@ const IndexPage = () => (
 							<Card.Title
 								style={{
 									color: 'white',
-									fontSize: '35px',
+									fontSize: '32px',
 									fontWeight: '500',
 									textShadow: '2px 2px 3px rgba(0,0,0,0.57)',
 									width: '100%',
 									position: 'absolute',
-									top: '85%',
+									top: '80%',
 									left: '50%',
 									transform: 'translate(-50%, -50%)'
 								}}
@@ -392,12 +392,12 @@ const IndexPage = () => (
 							<Card.Title
 								style={{
 									color: 'white',
-									fontSize: '35px',
+									fontSize: '32px',
 									fontWeight: '500',
 									textShadow: '2px 2px 3px rgba(0,0,0,0.57)',
 									width: '100%',
 									position: 'absolute',
-									top: '85%',
+									top: '80%',
 									left: '50%',
 									transform: 'translate(-50%, -50%)'
 								}}
@@ -431,17 +431,17 @@ const IndexPage = () => (
 							<Card.Title
 								style={{
 									color: 'white',
-									fontSize: '35px',
+									fontSize: '32px',
 									fontWeight: '500',
 									textShadow: '2px 2px 3px rgba(0,0,0,0.57)',
 									width: '100%',
 									position: 'absolute',
-									top: '85%',
+									top: '80%',
 									left: '50%',
 									transform: 'translate(-50%, -50%)'
 								}}
 							>
-								Summit at Snoqualmie
+								Summit<br /> at Snoqualmie
 							</Card.Title>
 						</Card.ImgOverlay>
 					</Link>

@@ -1,16 +1,16 @@
-Video Page:
-    make a previous and next button
+VIDEO PAGE TODOS:
+    1. make next and previous button
+        - create simple link
+        - add style
 
-Photo Page:
-    fix sizing for photos
-        -maybe import old code 
-   
+PHOTO PAGE TODOS:
+    1. fix problem with image cropping
+        - short fix would be importing old code at expense of optimazation
 
-Contact Page:
-    finish styling
+CONTACT PAGE TODOS:
+    1. style
 
-change single quotes to backticks on styling
-update SEO tags for best practices
 
-v2. 
-Break out footer and styles
+NON_URGENT TODOS:
+    1. change single quotes to backticks on styling
+    2. update SEO tags for best practices

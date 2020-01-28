@@ -5,6 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Helmet from 'react-helmet';
+import { Link } from 'gatsby';
 
 const Header = ({ siteTitle }) => (
 	<Container>
@@ -42,9 +43,9 @@ const Header = ({ siteTitle }) => (
 			<Container>
 				<Navbar.Collapse id="basic-navbar-nav" className="justify-content-end text-center">
 					<Nav>
-						<Nav.Link href="/">VIDEO</Nav.Link>
-						<Nav.Link href="/photo">PHOTO</Nav.Link>
-						<Nav.Link href="/contact">CONTACT</Nav.Link>
+						<Link to="/">VIDEO</Link>
+						<Link to="/photo">PHOTO</Link>
+						<Link to="/contact">CONTACT</Link>
 					</Nav>
 				</Navbar.Collapse>
 			</Container>

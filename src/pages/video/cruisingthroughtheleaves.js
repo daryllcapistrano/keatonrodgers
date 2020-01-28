@@ -10,18 +10,18 @@ import { Link } from 'gatsby';
 
 const CruisingLeaves = () => (
 	<Layout>
-		<SEO title="OJs Cruising in the Leaves" />
+		<SEO title="OJs Cruising through the Leaves" />
 		<Container>
-			<Link to="/video/bittersland/">bittersland</Link>
-			<Link to="/video/slimeballs/">slimeballs</Link>
+			<Link to="/video/bittersland/">Previous</Link>
+			<Link to="/video/slimeballs/">Next</Link>
 		</Container>
 		<Container>
 			<Row class="embed-responsive embed-responsive-16by9">
 				<iframe
-					title="OJs Cruising in the Leaves"
+					title="OJs Cruising through the Leaves"
 					width="100%"
 					height="480"
-					src="https://www.youtube.com/embed/sCUbL131tc0"
+					src="https://www.youtube.com/embed/djEnS6_MFyM"
 					frameborder="0"
 					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen="true"
@@ -30,7 +30,7 @@ const CruisingLeaves = () => (
 				</iframe>
 			</Row>
 			<Row>
-				<h5 style={{ margin: `auto` }}>OJs Cruising in the Leaves</h5>
+				<h5 style={{ margin: `auto` }}>OJs Cruising through the Leaves</h5>
 			</Row>
 			<Row>
 				<p style={{ fontSize: `12px`, margin: `auto` }}>Client: OJ Wheels</p>

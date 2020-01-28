@@ -6,10 +6,15 @@ import SEO from '../../components/seo';
 import Layout from '../../components/layout';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'gatsby';
 
 const Wornpath = () => (
 	<Layout>
 		<SEO title="Wornpath" />
+		<Container>
+			<Link to="/video/alpental/">Previous</Link>
+			<Link to="/video/prana_manifest_farm/">Next</Link>
+		</Container>
 		<Container>
 			<Row class="embed-responsive embed-responsive-16by9">
 				<iframe

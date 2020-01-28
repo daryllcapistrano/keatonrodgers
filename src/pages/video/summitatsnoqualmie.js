@@ -6,10 +6,16 @@ import SEO from '../../components/seo';
 import Layout from '../../components/layout';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'gatsby';
 
 const Summit = () => (
 	<Layout>
 		<SEO title="Sprung" />
+		<Container>
+			<Link to="/video/alpental/">Previous</Link>
+			<Link to="/video/wornpath/">Next</Link>
+		</Container>
+
 		<Container>
 			<Row class="embed-responsive embed-responsive-16by9">
 				<iframe

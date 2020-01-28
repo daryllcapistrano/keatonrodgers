@@ -6,10 +6,15 @@ import SEO from '../../components/seo';
 import Layout from '../../components/layout';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'gatsby';
 
 const JackGraydon = () => (
 	<Layout>
 		<SEO title="Jack Graydon" />
+		<Container>
+			<Link to="/video/greendream/">Previous</Link>
+			<Link to="/video/alpental/">Next</Link>
+		</Container>
 		<Container>
 			<Row class="embed-responsive embed-responsive-16by9">
 				<iframe

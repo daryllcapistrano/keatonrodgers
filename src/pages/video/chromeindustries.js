@@ -6,10 +6,16 @@ import SEO from '../../components/seo';
 import Layout from '../../components/layout';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'gatsby';
 
 const ChromeIndustries = () => (
 	<Layout>
 		<SEO title="Chrome Industries" />
+		<Container>
+			<Link to="/video/cruisingintherain/">Previous</Link>
+			<Link to="/video/greendream/">Next</Link>
+		</Container>
+
 		<Container>
 			<Row class="embed-responsive embed-responsive-16by9">
 				<iframe

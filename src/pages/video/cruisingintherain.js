@@ -6,10 +6,15 @@ import SEO from '../../components/seo';
 import Layout from '../../components/layout';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'gatsby';
 
 const OJ = () => (
 	<Layout>
 		<SEO title="OJs Cruising in the Rain" />
+		<Container>
+			<Link to="/video/slimeballs/">Previous</Link>
+			<Link to="/video/chromeindustries/">Next</Link>
+		</Container>
 		<Container>
 			<Row class="embed-responsive embed-responsive-16by9">
 				<iframe
@@ -24,15 +29,15 @@ const OJ = () => (
 					...
 				</iframe>
 			</Row>
-			{/* <Row>
-				<h5 style={{ margin: `auto` }}>Hand Painted Shirts</h5>
+			<Row>
+				<h5 style={{ margin: `auto` }}>Cruising in the rain</h5>
 			</Row>
 			<Row>
-				<p style={{ fontSize: `12px`, margin: `auto` }}>Client: Jack Graydon</p>
+				<p style={{ fontSize: `12px`, margin: `auto` }}>Client: OJ Wheels</p>
 			</Row>
 			<Row>
 				<p style={{ fontSize: `12px`, margin: `auto` }}>Film & Edit: Keaton Rodgers</p>
-			</Row> */}
+			</Row>
 		</Container>
 	</Layout>
 );

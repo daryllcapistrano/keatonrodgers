@@ -16,7 +16,7 @@ const Wornpath = () => (
 					title="Wornpath"
 					width="100%"
 					height="480"
-					src="https://www.youtube.com/embed/sCUbL131tc0"
+					src="https://www.youtube.com/embed/cpuSnsD_ZOg"
 					frameborder="0"
 					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen="true"

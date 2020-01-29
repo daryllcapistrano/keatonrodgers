@@ -16,7 +16,7 @@ const Header = ({ siteTitle }) => (
 			expand="sm"
 			style={{
 				backgroundColor: 'white',
-				padding: '15px 0px 15px',
+				padding: '0px 15px',
 				zIndex: '0', // change to unhide nav on modal show
 				fontFamily: 'Poppins'
 			}}
@@ -43,9 +43,33 @@ const Header = ({ siteTitle }) => (
 			<Container>
 				<Navbar.Collapse id="basic-navbar-nav" className="justify-content-end text-center">
 					<Nav>
-						<Link to="/">VIDEO</Link>
-						<Link to="/photo">PHOTO</Link>
-						<Link to="/contact">CONTACT</Link>
+						<Link
+							to="/"
+							style={{
+								color: 'red',
+								padding: '10px'
+							}}
+						>
+							VIDEO
+						</Link>
+						<Link
+							to="/photo/"
+							style={{
+								color: 'red',
+								padding: '10px'
+							}}
+						>
+							PHOTO
+						</Link>
+						<Link
+							to="/contact/"
+							style={{
+								color: 'red',
+								padding: '10px'
+							}}
+						>
+							CONTACT
+						</Link>
 					</Nav>
 				</Navbar.Collapse>
 			</Container>

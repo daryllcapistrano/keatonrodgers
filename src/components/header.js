@@ -46,7 +46,7 @@ const Header = ({ siteTitle }) => (
 						<Link
 							to="/"
 							style={{
-								color: 'red',
+								color: '#000000',
 								padding: '10px'
 							}}
 						>
@@ -55,7 +55,7 @@ const Header = ({ siteTitle }) => (
 						<Link
 							to="/photo/"
 							style={{
-								color: 'red',
+								color: '#000000',
 								padding: '10px'
 							}}
 						>
@@ -64,7 +64,7 @@ const Header = ({ siteTitle }) => (
 						<Link
 							to="/contact/"
 							style={{
-								color: 'red',
+								color: '#000000',
 								padding: '10px'
 							}}
 						>

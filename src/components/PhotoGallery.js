@@ -20,7 +20,7 @@ function PhotoGallery() {
 
 	return (
 		<div>
-			<Gallery photos={photos} onClick={openLightbox} />
+			<Gallery photos={photos} onClick={openLightbox} direction={'column'} />
 			<ModalGateway>
 				{viewerIsOpen ? (
 					<Modal onClose={closeLightbox}>

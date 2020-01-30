@@ -12,8 +12,24 @@ const Bittersland = () => (
 	<Layout>
 		<SEO title="Bittersland" />
 		<Container>
-			<Link to="/video/prana_manifest_farm/">Previous</Link>
-			<Link to="/video/cruisingthroughtheleaves/">Next</Link>
+			<Link
+				to="/video/prana_manifest_farm/"
+				style={{
+					color: '#000000',
+					padding: '10px'
+				}}
+			>
+				Previous
+			</Link>
+			<Link
+				to="/video/cruisingthroughtheleaves/"
+				style={{
+					color: '#000000',
+					padding: '10px'
+				}}
+			>
+				Next
+			</Link>
 		</Container>
 		<Container>
 			<Row class="embed-responsive embed-responsive-16by9">

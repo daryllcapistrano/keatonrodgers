@@ -12,8 +12,24 @@ const Prana = () => (
 	<Layout>
 		<SEO title="Prana Manifest Farm" />
 		<Container>
-			<Link to="/video/wornpath/">Previous</Link>
-			<Link to="/video/bittersland/">Next</Link>
+			<Link
+				to="/video/wornpath/"
+				style={{
+					color: '#000000',
+					padding: '10px'
+				}}
+			>
+				Previous
+			</Link>
+			<Link
+				to="/video/bittersland/"
+				style={{
+					color: '#000000',
+					padding: '10px'
+				}}
+			>
+				Next
+			</Link>
 		</Container>
 		<Container>
 			<Row class="embed-responsive embed-responsive-16by9">

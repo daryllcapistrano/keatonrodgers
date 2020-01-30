@@ -12,8 +12,24 @@ const JackGraydon = () => (
 	<Layout>
 		<SEO title="Jack Graydon" />
 		<Container>
-			<Link to="/video/greendream/">Previous</Link>
-			<Link to="/video/alpental/">Next</Link>
+			<Link
+				to="/video/greendream/"
+				style={{
+					color: '#000000',
+					padding: '10px'
+				}}
+			>
+				Previous
+			</Link>
+			<Link
+				to="/video/alpental/"
+				style={{
+					color: '#000000',
+					padding: '10px'
+				}}
+			>
+				Next
+			</Link>
 		</Container>
 		<Container>
 			<Row class="embed-responsive embed-responsive-16by9">

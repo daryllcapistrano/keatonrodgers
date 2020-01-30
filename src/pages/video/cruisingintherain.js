@@ -12,8 +12,24 @@ const OJ = () => (
 	<Layout>
 		<SEO title="OJs Cruising in the Rain" />
 		<Container>
-			<Link to="/video/slimeballs/">Previous</Link>
-			<Link to="/video/chromeindustries/">Next</Link>
+			<Link
+				to="/video/slimeballs/"
+				style={{
+					color: '#000000',
+					padding: '10px'
+				}}
+			>
+				Previous
+			</Link>
+			<Link
+				to="/video/chromeindustries/"
+				style={{
+					color: '#000000',
+					padding: '10px'
+				}}
+			>
+				Next
+			</Link>
 		</Container>
 		<Container>
 			<Row class="embed-responsive embed-responsive-16by9">

@@ -12,8 +12,24 @@ const Wornpath = () => (
 	<Layout>
 		<SEO title="Wornpath" />
 		<Container>
-			<Link to="/video/alpental/">Previous</Link>
-			<Link to="/video/prana_manifest_farm/">Next</Link>
+			<Link
+				to="/video/alpental/"
+				style={{
+					color: '#000000',
+					padding: '10px'
+				}}
+			>
+				Previous
+			</Link>
+			<Link
+				to="/video/prana_manifest_farm/"
+				style={{
+					color: '#000000',
+					padding: '10px'
+				}}
+			>
+				Next
+			</Link>
 		</Container>
 		<Container>
 			<Row class="embed-responsive embed-responsive-16by9">

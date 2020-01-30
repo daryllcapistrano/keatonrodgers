@@ -12,8 +12,24 @@ const CruisingLeaves = () => (
 	<Layout>
 		<SEO title="OJs Cruising through the Leaves" />
 		<Container>
-			<Link to="/video/bittersland/">Previous</Link>
-			<Link to="/video/slimeballs/">Next</Link>
+			<Link
+				to="/video/bittersland/"
+				style={{
+					color: '#000000',
+					padding: '10px'
+				}}
+			>
+				Previous
+			</Link>
+			<Link
+				to="/video/slimeballs/"
+				style={{
+					color: '#000000',
+					padding: '10px'
+				}}
+			>
+				Next
+			</Link>
 		</Container>
 		<Container>
 			<Row class="embed-responsive embed-responsive-16by9">

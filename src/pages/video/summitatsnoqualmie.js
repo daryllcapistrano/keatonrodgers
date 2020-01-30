@@ -12,8 +12,24 @@ const Summit = () => (
 	<Layout>
 		<SEO title="Sprung" />
 		<Container>
-			<Link to="/video/alpental/">Previous</Link>
-			<Link to="/video/wornpath/">Next</Link>
+			<Link
+				to="/video/alpental/"
+				style={{
+					color: '#000000',
+					padding: '10px'
+				}}
+			>
+				Previous
+			</Link>
+			<Link
+				to="/video/wornpath/"
+				style={{
+					color: '#000000',
+					padding: '10px'
+				}}
+			>
+				Next
+			</Link>
 		</Container>
 
 		<Container>

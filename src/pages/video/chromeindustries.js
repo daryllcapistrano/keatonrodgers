@@ -12,8 +12,24 @@ const ChromeIndustries = () => (
 	<Layout>
 		<SEO title="Chrome Industries" />
 		<Container>
-			<Link to="/video/cruisingintherain/">Previous</Link>
-			<Link to="/video/greendream/">Next</Link>
+			<Link
+				to="/video/cruisingintherain/"
+				style={{
+					color: '#000000',
+					padding: '10px'
+				}}
+			>
+				Previous
+			</Link>
+			<Link
+				to="/video/greendream/"
+				style={{
+					color: '#000000',
+					padding: '10px'
+				}}
+			>
+				Next
+			</Link>
 		</Container>
 
 		<Container>

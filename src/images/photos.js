@@ -35,7 +35,7 @@ export const photos = [
 		height: 3
 	},
 	{
-		src: '../../static/Bit_16-b016c0cb65d31a7670683363d931d965.png',
+		src: '../../static/poler12-cf5d282831351a4001b0be39be0c233c.jpg',
 		width: 2,
 		height: 3
 	},
@@ -45,7 +45,7 @@ export const photos = [
 		height: 3
 	},
 	{
-		src: '../../static/poler12-cf5d282831351a4001b0be39be0c233c.jpg',
+		src: '../../static/Bit_16-b016c0cb65d31a7670683363d931d965.png',
 		width: 2,
 		height: 3
 	},

@@ -45,7 +45,9 @@ const Layout = ({ children }) => {
         >
           © {new Date().getFullYear()}
           {` `}
-          <a href="https://www.instagram.com/keatonrodgers">KR Media</a>
+          <a href="https://www.instagram.com/keatonrodgers" style={{
+            color: '#000000'
+          }}>KR Media</a>
         </footer>
       </div>
     </>

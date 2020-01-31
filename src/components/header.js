@@ -27,7 +27,8 @@ const Header = ({ siteTitle }) => (
 				style={{
 					letterSpacing: '2px',
 					fontSize: '2rem',
-					fontWeight: '700'
+					fontWeight: '700',
+					margin: '0px'
 				}}
 			>
 				{siteTitle}
@@ -36,8 +37,7 @@ const Header = ({ siteTitle }) => (
 				aria-controls="basic-navbar-nav"
 				style={{
 					borderColor: '#ffffff',
-					width: '100%',
-					marginTop: `5px`
+					width: '100%'
 				}}
 			/>
 			<Container>

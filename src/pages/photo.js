@@ -11,7 +11,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const PhotoPage = () => (
 	<Layout>
 		<SEO title="Photos" />
-		<Container>
+		<Container
+			// quick fix styling to center images on screen
+			style={{
+				paddingLeft: '24px'
+			}}
+		>
 			<PhotoGallery />
 		</Container>
 	</Layout>

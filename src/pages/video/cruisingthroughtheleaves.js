@@ -2,6 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 // import Col from 'react-bootstrap/Col';
+import ResponsiveEmbed from 'react-bootstrap/ResponsiveEmbed';
 import SEO from '../../components/seo';
 import Layout from '../../components/layout';
 
@@ -13,13 +14,13 @@ const CruisingLeaves = () => (
 		<SEO title="OJs Cruising through the Leaves" />
 		<Container>
 			<Link
-				to="/video/bittersland/"
+				to="/"
 				style={{
 					color: '#000000',
 					padding: '10px'
 				}}
 			>
-				Previous
+				Back
 			</Link>
 			<Link
 				to="/video/slimeballs/"
@@ -32,19 +33,22 @@ const CruisingLeaves = () => (
 			</Link>
 		</Container>
 		<Container>
-			<Row class="embed-responsive embed-responsive-16by9">
-				<iframe
-					title="OJs Cruising through the Leaves"
-					width="100%"
-					height="480"
-					src="https://www.youtube.com/embed/djEnS6_MFyM"
-					frameborder="0"
-					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-					allowfullscreen="true"
-				>
-					...
-				</iframe>
+			<Row style={{ justifyContent: 'center' }}>
+				<div style={{ width: 660, height: 'auto' }}>
+					<ResponsiveEmbed aspectRatio="16by9">
+						<iframe
+							title="OJs Cruising through the Leaves"
+							src="https://www.youtube.com/embed/djEnS6_MFyM"
+							frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen="true"
+						>
+							...
+						</iframe>
+					</ResponsiveEmbed>
+				</div>
 			</Row>
+
 			<Row>
 				<h5 style={{ margin: `auto` }}>OJs Cruising through the Leaves</h5>
 			</Row>

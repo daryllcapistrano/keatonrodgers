@@ -2,6 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 // import Col from 'react-bootstrap/Col';
+import ResponsiveEmbed from 'react-bootstrap/ResponsiveEmbed';
 import SEO from '../../components/seo';
 import Layout from '../../components/layout';
 
@@ -13,13 +14,13 @@ const ChromeIndustries = () => (
 		<SEO title="Chrome Industries" />
 		<Container>
 			<Link
-				to="/video/cruisingintherain/"
+				to="/"
 				style={{
 					color: '#000000',
 					padding: '10px'
 				}}
 			>
-				Previous
+				Back
 			</Link>
 			<Link
 				to="/video/greendream/"
@@ -33,44 +34,50 @@ const ChromeIndustries = () => (
 		</Container>
 
 		<Container>
-			<Row class="embed-responsive embed-responsive-16by9">
-				<iframe
-					title="Shorts Stories - Pocket"
-					width="100%"
-					height="480"
-					src="https://www.youtube.com/embed/XmNUroFU0lc"
-					frameborder="0"
-					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-					allowfullscreen="true"
-				>
-					...
-				</iframe>
+			<Row style={{ justifyContent: 'center' }}>
+				<div style={{ width: 660, height: 'auto' }}>
+					<ResponsiveEmbed aspectRatio="16by9">
+						<iframe
+							title="Shorts Stories - Pocket"
+							src="https://www.youtube.com/embed/XmNUroFU0lc"
+							frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen="true"
+						>
+							...
+						</iframe>
+					</ResponsiveEmbed>
+				</div>
 			</Row>
-			<Row class="embed-responsive embed-responsive-16by9">
-				<iframe
-					title="Shorts Stories - U Lock"
-					width="100%"
-					height="480"
-					src="https://www.youtube.com/embed/WrBE1s6HSo4"
-					frameborder="0"
-					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-					allowfullscreen="true"
-				>
-					...
-				</iframe>
+			<Row style={{ justifyContent: 'center' }}>
+				<div style={{ width: 660, height: 'auto' }}>
+					<ResponsiveEmbed aspectRatio="16by9">
+						<iframe
+							title="Shorts Stories - U Lock"
+							src="https://www.youtube.com/embed/WrBE1s6HSo4"
+							frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen="true"
+						>
+							...
+						</iframe>
+					</ResponsiveEmbed>
+				</div>
 			</Row>
-			<Row class="embed-responsive embed-responsive-16by9">
-				<iframe
-					title="Shorts Stories - Tow"
-					width="100%"
-					height="480"
-					src="https://www.youtube.com/embed/_8menJ4w7hs"
-					frameborder="0"
-					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-					allowfullscreen="true"
-				>
-					...
-				</iframe>
+			<Row style={{ justifyContent: 'center' }}>
+				<div style={{ width: 660, height: 'auto' }}>
+					<ResponsiveEmbed aspectRatio="16by9">
+						<iframe
+							title="Shorts Stories - Tow"
+							src="https://www.youtube.com/embed/_8menJ4w7hs"
+							frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen="true"
+						>
+							...
+						</iframe>
+					</ResponsiveEmbed>
+				</div>
 			</Row>
 			<Row>
 				<h5 style={{ margin: `auto` }}>Shorts Stories</h5>

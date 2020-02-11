@@ -2,6 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 // import Col from 'react-bootstrap/Col';
+import ResponsiveEmbed from 'react-bootstrap/ResponsiveEmbed';
 import SEO from '../../components/seo';
 import Layout from '../../components/layout';
 
@@ -13,13 +14,13 @@ const Wornpath = () => (
 		<SEO title="Wornpath" />
 		<Container>
 			<Link
-				to="/video/alpental/"
+				to="/"
 				style={{
 					color: '#000000',
 					padding: '10px'
 				}}
 			>
-				Previous
+				Back
 			</Link>
 			<Link
 				to="/video/prana_manifest_farm/"
@@ -32,18 +33,20 @@ const Wornpath = () => (
 			</Link>
 		</Container>
 		<Container>
-			<Row class="embed-responsive embed-responsive-16by9">
-				<iframe
-					title="Wornpath"
-					width="100%"
-					height="480"
-					src="https://www.youtube.com/embed/cpuSnsD_ZOg"
-					frameborder="0"
-					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-					allowfullscreen="true"
-				>
-					...
-				</iframe>
+			<Row style={{ justifyContent: 'center' }}>
+				<div style={{ width: 660, height: 'auto' }}>
+					<ResponsiveEmbed aspectRatio="16by9">
+						<iframe
+							title="Wornpath"
+							src="https://www.youtube.com/embed/cpuSnsD_ZOg?modestbranding=1"
+							frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen="true"
+						>
+							...
+						</iframe>
+					</ResponsiveEmbed>
+				</div>
 			</Row>
 			<Row>
 				<h5 style={{ margin: `auto` }}>Wornpath</h5>

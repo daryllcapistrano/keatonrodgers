@@ -15,7 +15,8 @@ const ContactPage = () => (
 		<Container>
 			<Row>
 				<Col
-					sm={12}
+					xs={12}
+					sm={6}
 					md={6}
 					lg={6}
 					style={{
@@ -23,40 +24,49 @@ const ContactPage = () => (
 						padding: '0px'
 					}}
 				>
-					<Container className="text-left" style={{ padding: '25px' }}>
-						<a
-							href="tel:"
-							style={{
-								color: '#000000',
-								padding: '10px'
-							}}
-						>
-							971.347.6704
-						</a>
-						<br />
-						<a
-							href="mailto:"
-							style={{
-								color: '#000000',
-								padding: '10px'
-							}}
-						>
-							keatonrodgers@gmail.com
-						</a>
-						<br />
-						<a
-							href="https://www.instagram.com/keatonrodgers"
-							style={{
-								color: '#000000',
-								padding: '10px'
-							}}
-						>
-							@keatonrodgers
-						</a>
+					<Container style={{ padding: '5px 30px 5px 30px' }}>
+						<li>
+							<a
+								href="tel:"
+								style={{
+									color: '#000000',
+									padding: '5px',
+									margin: '0px'
+								}}
+							>
+								971.347.6704
+							</a>
+						</li>
+						<li>
+							<a
+								href="mailto:"
+								style={{
+									color: '#000000',
+									padding: '5px',
+									margin: '0px'
+								}}
+							>
+								keatonrodgers@gmail.com
+							</a>
+						</li>
+						<li>
+							{' '}
+							<a
+								href="https://www.instagram.com/keatonrodgers"
+								style={{
+									color: '#000000',
+									padding: '5px',
+									margin: '0px'
+								}}
+							>
+								@keatonrodgers
+							</a>
+						</li>
 					</Container>
 				</Col>
 				<Col
-					sm={12}
+					xs={12}
+					sm={6}
 					md={6}
 					lg={6}
 					style={{
@@ -65,15 +75,17 @@ const ContactPage = () => (
 					}}
 				>
 					<Container>
-						<img
-							src={ContactPhoto}
-							alt="Keaton Rodgers"
-							// style={{
-							// 	margin: `0 auto`,
-							// 	padding: `0px 1.0875rem 1.45rem`,
-							// 	width: `100%`
-							// }}
-						/>
+						<Container style={{}}>
+							<img
+								src={ContactPhoto}
+								alt="Keaton Rodgers"
+								style={{
+									margin: `auto`,
+									width: `100%`,
+									float: `center`
+								}}
+							/>
+						</Container>
 					</Container>
 				</Col>
 			</Row>

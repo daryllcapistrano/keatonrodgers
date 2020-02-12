@@ -25,7 +25,7 @@ const IndexPage = () => (
 	<Layout>
 		<SEO title="Video Work" />
 		<Container>
-			<Row>
+			<Row style={{ marginTop: '1.5rem' }}>
 				<Col
 					sm={12}
 					md={6}

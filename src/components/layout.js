@@ -40,7 +40,7 @@ const Layout = ({ children }) => {
         <footer className="text-center"
         style={{
           margin: `0 auto`,
-          padding: `150px 1.0875rem 1.45rem`
+          padding: `50px 1.0875rem 1.45rem`
         }}
         >
           © {new Date().getFullYear()}

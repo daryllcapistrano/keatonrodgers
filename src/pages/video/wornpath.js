@@ -13,24 +13,26 @@ const Wornpath = () => (
 	<Layout>
 		<SEO title="Wornpath" />
 		<Container>
-			<Link
-				to="/"
-				style={{
-					color: '#000000',
-					padding: '10px'
-				}}
-			>
-				Back
-			</Link>
-			<Link
-				to="/video/prana_manifest_farm/"
-				style={{
-					color: '#000000',
-					padding: '10px'
-				}}
-			>
-				Next
-			</Link>
+			<Row style={{ justifyContent: 'center' }}>
+				<Link
+					to="/"
+					style={{
+						color: '#000000',
+						padding: '10px'
+					}}
+				>
+					Back
+				</Link>
+				<Link
+					to="/video/prana_manifest_farm/"
+					style={{
+						color: '#000000',
+						padding: '10px'
+					}}
+				>
+					Next
+				</Link>
+			</Row>
 		</Container>
 		<Container>
 			<Row style={{ justifyContent: 'center' }}>

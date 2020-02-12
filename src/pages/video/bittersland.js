@@ -50,15 +50,18 @@ const Bittersland = () => (
 					</ResponsiveEmbed>
 				</div>
 			</Row>
-			<Row>
-				<h5 style={{ margin: `auto` }}>Bittersland</h5>
-			</Row>
-			<Row>
-				<p style={{ fontSize: `12px`, margin: `auto` }}>Client: Bittersland</p>
-			</Row>
-			<Row>
-				<p style={{ fontSize: `12px`, margin: `auto` }}>Film & Edit: Keaton Rodgers</p>
-			</Row>
+
+			<Container style={{ padding: '10px', textAlign: 'center' }}>
+				<li style={{ margin: `auto`, padding: '2px' }}>
+					<h5>Bittersland</h5>
+				</li>
+				<li style={{ fontSize: `12px`, margin: `auto`, padding: '2px' }}>
+					<p>Client: Bittersland</p>
+				</li>
+				<li style={{ fontSize: `12px`, margin: `auto`, padding: '2px' }}>
+					<p>Film & Edit: Keaton Rodgers</p>
+				</li>
+			</Container>
 		</Container>
 	</Layout>
 );

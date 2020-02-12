@@ -51,15 +51,17 @@ const JackGraydon = () => (
 				</div>
 			</Row>
 
-			<Row>
-				<h5 style={{ margin: `auto` }}>Hand Painted Shirts</h5>
-			</Row>
-			<Row>
-				<p style={{ fontSize: `12px`, margin: `auto` }}>Client: Jack Graydon</p>
-			</Row>
-			<Row>
-				<p style={{ fontSize: `12px`, margin: `auto` }}>Film & Edit: Keaton Rodgers</p>
-			</Row>
+			<Container style={{ padding: '10px', textAlign: 'center' }}>
+				<li style={{ margin: `auto`, padding: '2px' }}>
+					<h5>Hand Painted Shirts</h5>
+				</li>
+				<li style={{ fontSize: `12px`, margin: `auto`, padding: '2px' }}>
+					<p>Client: Jack Graydon</p>
+				</li>
+				<li style={{ fontSize: `12px`, margin: `auto`, padding: '2px' }}>
+					<p>Film & Edit: Keaton Rodgers</p>
+				</li>
+			</Container>
 		</Container>
 	</Layout>
 );

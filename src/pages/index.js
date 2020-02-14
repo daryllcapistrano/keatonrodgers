@@ -56,7 +56,8 @@ const IndexPage = () => (
 									position: 'absolute',
 									top: '80%',
 									left: '50%',
-									transform: 'translate(-50%, -50%)'
+									transform: 'translate(-50%, -50%)',
+									textTransform: 'uppercase'
 								}}
 							>
 								Wornpath
@@ -94,7 +95,8 @@ const IndexPage = () => (
 									position: 'absolute',
 									top: '80%',
 									left: '50%',
-									transform: 'translate(-50%, -50%)'
+									transform: 'translate(-50%, -50%)',
+									textTransform: 'uppercase'
 								}}
 							>
 								Manifest Farm
@@ -132,7 +134,8 @@ const IndexPage = () => (
 									position: 'absolute',
 									top: '80%',
 									left: '50%',
-									transform: 'translate(-50%, -50%)'
+									transform: 'translate(-50%, -50%)',
+									textTransform: 'uppercase'
 								}}
 							>
 								Bittersland
@@ -170,7 +173,8 @@ const IndexPage = () => (
 									position: 'absolute',
 									top: '80%',
 									left: '50%',
-									transform: 'translate(-50%, -50%)'
+									transform: 'translate(-50%, -50%)',
+									textTransform: 'uppercase'
 								}}
 							>
 								OJ Wheels <br /> Cruising in the Leaves
@@ -208,7 +212,8 @@ const IndexPage = () => (
 									position: 'absolute',
 									top: '80%',
 									left: '50%',
-									transform: 'translate(-50%, -50%)'
+									transform: 'translate(-50%, -50%)',
+									textTransform: 'uppercase'
 								}}
 							>
 								Slimeballs
@@ -246,7 +251,8 @@ const IndexPage = () => (
 									position: 'absolute',
 									top: '80%',
 									left: '50%',
-									transform: 'translate(-50%, -50%)'
+									transform: 'translate(-50%, -50%)',
+									textTransform: 'uppercase'
 								}}
 							>
 								OJ Wheels <br /> Cruising in the Rain
@@ -284,7 +290,8 @@ const IndexPage = () => (
 									position: 'absolute',
 									top: '80%',
 									left: '50%',
-									transform: 'translate(-50%, -50%)'
+									transform: 'translate(-50%, -50%)',
+									textTransform: 'uppercase'
 								}}
 							>
 								Chrome
@@ -322,7 +329,8 @@ const IndexPage = () => (
 									position: 'absolute',
 									top: '80%',
 									left: '50%',
-									transform: 'translate(-50%, -50%)'
+									transform: 'translate(-50%, -50%)',
+									textTransform: 'uppercase'
 								}}
 							>
 								Green Dream
@@ -360,7 +368,8 @@ const IndexPage = () => (
 									position: 'absolute',
 									top: '80%',
 									left: '50%',
-									transform: 'translate(-50%, -50%)'
+									transform: 'translate(-50%, -50%)',
+									textTransform: 'uppercase'
 								}}
 							>
 								Jack Graydon
@@ -399,7 +408,8 @@ const IndexPage = () => (
 									position: 'absolute',
 									top: '80%',
 									left: '50%',
-									transform: 'translate(-50%, -50%)'
+									transform: 'translate(-50%, -50%)',
+									textTransform: 'uppercase'
 								}}
 							>
 								Alpental
@@ -438,7 +448,8 @@ const IndexPage = () => (
 									position: 'absolute',
 									top: '80%',
 									left: '50%',
-									transform: 'translate(-50%, -50%)'
+									transform: 'translate(-50%, -50%)',
+									textTransform: 'uppercase'
 								}}
 							>
 								Summit<br /> at Snoqualmie

@@ -11,7 +11,7 @@ const Header = ({ siteTitle }) => (
 	<Container>
 		<Helmet>
 			<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap" rel="stylesheet" />
-			<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
+			<script src="https://use.fontawesome.com/53c5530bdf.js" />
 		</Helmet>
 		<Navbar
 			expand="sm"

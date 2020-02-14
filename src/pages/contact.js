@@ -34,6 +34,7 @@ const ContactPage = () => (
 									margin: '0px'
 								}}
 							>
+								<span class="fa fa-lg fa-mobile" aria-hidden="true" />
 								971.347.6704
 							</a>
 						</li>
@@ -46,6 +47,7 @@ const ContactPage = () => (
 									margin: '0px'
 								}}
 							>
+								<span class="fa fa-lg fa-envelope-o" aria-hidden="true" />
 								keatonrodgers@gmail.com
 							</a>
 						</li>
@@ -59,6 +61,7 @@ const ContactPage = () => (
 									margin: '0px'
 								}}
 							>
+								<span class="fa fa-lg fa-instagram" aria-hidden="true" />
 								@keatonrodgers
 							</a>
 						</li>

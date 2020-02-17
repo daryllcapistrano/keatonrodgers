@@ -40,7 +40,16 @@ const Header = ({ siteTitle }) => (
 					borderColor: '#ffffff',
 					width: '100%'
 				}}
-			/>
+			>
+				<span
+					class="fa fa-lg fa-bars"
+					aria-hidden="true"
+					style={{
+						color: '#000000',
+						paddingTop: '10px'
+					}}
+				/>
+			</Navbar.Toggle>
 			<Container>
 				<Navbar.Collapse id="basic-navbar-nav" className="justify-content-end text-center">
 					<Nav>

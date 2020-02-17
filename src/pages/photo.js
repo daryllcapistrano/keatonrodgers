@@ -14,7 +14,8 @@ const PhotoPage = () => (
 		<Container
 			// quick fix styling to center images on screen
 			style={{
-				paddingLeft: '24px'
+				paddingLeft: '24px',
+				paddingTop: '20px'
 			}}
 		>
 			<PhotoGallery />

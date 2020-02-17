@@ -24,7 +24,7 @@ const ContactPage = () => (
 						padding: '0px'
 					}}
 				>
-					<Container style={{ padding: '5px 30px 5px 30px' }}>
+					<Container style={{ padding: '20px 30px 5px 30px' }}>
 						<li>
 							<a
 								href="tel:"
@@ -34,7 +34,13 @@ const ContactPage = () => (
 									margin: '0px'
 								}}
 							>
-								<span class="fa fa-lg fa-mobile" aria-hidden="true" />
+								<span
+									class="fa fa-lg fa-mobile"
+									aria-hidden="true"
+									style={{
+										padding: '5px'
+									}}
+								/>
 								971.347.6704
 							</a>
 						</li>
@@ -47,7 +53,13 @@ const ContactPage = () => (
 									margin: '0px'
 								}}
 							>
-								<span class="fa fa-lg fa-envelope-o" aria-hidden="true" />
+								<span
+									class="fa fa-envelope-o"
+									aria-hidden="true"
+									style={{
+										padding: '5px'
+									}}
+								/>
 								keatonrodgers@gmail.com
 							</a>
 						</li>
@@ -61,7 +73,13 @@ const ContactPage = () => (
 									margin: '0px'
 								}}
 							>
-								<span class="fa fa-lg fa-instagram" aria-hidden="true" />
+								<span
+									class="fa fa-instagram"
+									aria-hidden="true"
+									style={{
+										padding: '5px'
+									}}
+								/>
 								@keatonrodgers
 							</a>
 						</li>

@@ -55,6 +55,21 @@ const ChromeIndustries = () => (
 				<div style={{ width: 660, height: 'auto' }}>
 					<ResponsiveEmbed aspectRatio="16by9">
 						<iframe
+							title="Shorts Stories - Water Resistance"
+							src="https://www.youtube.com/embed/8WCbwy9DpII"
+							frameborder="0"
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen="true"
+						>
+							...
+						</iframe>
+					</ResponsiveEmbed>
+				</div>
+			</Row>
+			<Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
+				<div style={{ width: 660, height: 'auto' }}>
+					<ResponsiveEmbed aspectRatio="16by9">
+						<iframe
 							title="Shorts Stories - U Lock"
 							src="https://www.youtube.com/embed/WrBE1s6HSo4"
 							frameborder="0"

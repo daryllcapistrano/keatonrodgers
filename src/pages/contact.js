@@ -60,7 +60,7 @@ const ContactPage = () => (
 										padding: '5px'
 									}}
 								/>
-								keatonrodgers@gmail.com
+								keatonrodgersmedia@gmail.com
 							</a>
 						</li>
 						<li>

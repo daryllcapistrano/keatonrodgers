@@ -154,7 +154,7 @@ const IndexPage = () => (
 							padding: '5px'
 						}}
 					>
-						<Link to="/video/cruisingintheleaves/">
+						<Link to="/video/cruisingthroughtheleaves/">
 							<img
 								src={OJLeaves}
 								alt="cruisingintheleaves"
